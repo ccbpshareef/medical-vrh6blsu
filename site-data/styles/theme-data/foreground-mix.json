@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Brand-tinted foreground generation weights for theme-brand-generator",
+  "neutrals": {
+    "darkBase": "#f1f5f9",
+    "lightBase": "#1a1a2e",
+    "mutedBase": "#64748b"
+  },
+  "mixWeights": {
+    "darkForegroundAccent": 0.42,
+    "lightForegroundPrimary": 0.58,
+    "lightMutedAccent": 0.38
+  },
+  "background": {
+    "darkPrimaryScale": 0.06,
+    "darkPrimaryOffset": 4,
+    "darkPrimaryBlueOffset": 6,
+    "lightPrimaryScale": 0.02,
+    "lightBaseRgb": 248
+  },
+  "mesh": {
+    "darkPrimaryAlpha": 0.32,
+    "darkAccentAlpha": 0.2,
+    "darkBottomPrimaryAlpha": 0.15,
+    "lightPrimaryAlpha": 0.12,
+    "lightAccentAlpha": 0.08,
+    "lightBottomPrimaryAlpha": 0.06
+  }
+}

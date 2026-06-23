@@ -1,0 +1,290 @@
+{
+  "id": "sec_1782210887956_uuswv",
+  "componentId": "heroSection",
+  "slotHostId": "heroSection",
+  "presetId": "hero_section_general_dental_clinic_light",
+  "presetSource": "seed",
+  "presetName": "Dental clinic · Family Care Hero · Light",
+  "role": "hero",
+  "label": "Your neighborhood health partner",
+  "sectionFile": "sections/sec_1782210887956_uuswv.json",
+  "pageNode": {
+    "id": "sec_1782210887956_uuswv",
+    "component": "heroSection",
+    "category": "content",
+    "variant": "familyCareSplit",
+    "content": {
+      "settings": {
+        "backgroundTheme": "dental_clinic",
+        "motionPreset": "stagger",
+        "glassEffects": false,
+        "glossySurfaces": false,
+        "glowAccents": false,
+        "mediaLayout": "split"
+      },
+      "children": [
+        {
+          "id": "eyebrow_1",
+          "slot": "eyebrow",
+          "componentId": "label",
+          "componentVariant": "eyebrow",
+          "content": {
+            "label": "CARE FINDER",
+            "icon": "Star",
+            "placement": "inline"
+          }
+        },
+        {
+          "id": "heading_1",
+          "slot": "heading",
+          "componentId": "heading",
+          "componentVariant": "displaySerif",
+          "content": {
+            "children": "Find dental care & smile specialists near you",
+            "accentPhrase": "Your Family",
+            "placement": "inline"
+          }
+        },
+        {
+          "id": "subtitle_1",
+          "slot": "subtitle",
+          "componentId": "text",
+          "componentVariant": "lead",
+          "content": {
+            "children": "Search by location, filter cosmetic, family, or emergency visits — trusted clinics with verified reviews.",
+            "placement": "inline"
+          }
+        },
+        {
+          "id": "search_1",
+          "slot": "search",
+          "componentId": "button",
+          "componentVariant": "primary",
+          "content": {
+            "label": "Book Appointment",
+            "href": "/contact",
+            "ctaStyle": "default",
+            "placement": "inline",
+            "action": {
+              "type": "navigate",
+              "href": "/contact"
+            }
+          }
+        },
+        {
+          "id": "search_2",
+          "slot": "search",
+          "componentId": "button",
+          "componentVariant": "ghost",
+          "content": {
+            "label": "Watch Our Video",
+            "href": "/about#video",
+            "ctaStyle": "play",
+            "placement": "inline",
+            "action": {
+              "type": "navigate",
+              "href": "/about#video"
+            }
+          }
+        },
+        {
+          "id": "quickFilters_1",
+          "slot": "quickFilters",
+          "componentId": "suggestionChip",
+          "componentVariant": "default",
+          "content": {
+            "label": "Family Friendly Care",
+            "href": "/services",
+            "icon": "Heart"
+          }
+        },
+        {
+          "id": "quickFilters_2",
+          "slot": "quickFilters",
+          "componentId": "suggestionChip",
+          "componentVariant": "default",
+          "content": {
+            "label": "Advanced Technology",
+            "href": "/services",
+            "icon": "Sparkles"
+          }
+        },
+        {
+          "id": "quickFilters_3",
+          "slot": "quickFilters",
+          "componentId": "suggestionChip",
+          "componentVariant": "default",
+          "content": {
+            "label": "Comfortable & Painless",
+            "href": "/services",
+            "icon": "Shield"
+          }
+        },
+        {
+          "id": "quickFilters_4",
+          "slot": "quickFilters",
+          "componentId": "suggestionChip",
+          "componentVariant": "default",
+          "content": {
+            "label": "Personalized Treatment",
+            "href": "/services",
+            "icon": "Users"
+          }
+        },
+        {
+          "id": "media_1",
+          "slot": "media",
+          "componentId": "image",
+          "componentVariant": "default",
+          "content": {
+            "src": "/images/curated/dental_clinic/home/hero/modern-dental-clinic-hero/modern-dental-clinic-hero_065_pixabay.jpg",
+            "alt": "Happy family receiving care at BrightSmile Dental Care",
+            "placement": "inline"
+          }
+        }
+      ]
+    }
+  },
+  "builderState": {
+    "presentationVariant": "familyCareSplit",
+    "settings": {
+      "backgroundTheme": "dental_clinic",
+      "motionPreset": "stagger",
+      "glassEffects": false,
+      "glossySurfaces": false,
+      "glowAccents": false,
+      "mediaLayout": "split"
+    },
+    "children": [
+      {
+        "id": "eyebrow_1",
+        "slot": "eyebrow",
+        "componentId": "label",
+        "category": "typography",
+        "componentVariant": "eyebrow",
+        "content": {
+          "label": "CARE FINDER",
+          "icon": "Star",
+          "placement": "inline"
+        }
+      },
+      {
+        "id": "heading_1",
+        "slot": "heading",
+        "componentId": "heading",
+        "category": "typography",
+        "componentVariant": "displaySerif",
+        "content": {
+          "children": "Find dental care & smile specialists near you",
+          "accentPhrase": "Your Family",
+          "placement": "inline"
+        }
+      },
+      {
+        "id": "subtitle_1",
+        "slot": "subtitle",
+        "componentId": "text",
+        "category": "typography",
+        "componentVariant": "lead",
+        "content": {
+          "children": "Search by location, filter cosmetic, family, or emergency visits — trusted clinics with verified reviews.",
+          "placement": "inline"
+        }
+      },
+      {
+        "id": "search_1",
+        "slot": "search",
+        "componentId": "button",
+        "category": "actions",
+        "componentVariant": "primary",
+        "content": {
+          "label": "Book Appointment",
+          "href": "/contact",
+          "ctaStyle": "default",
+          "placement": "inline",
+          "action": {
+            "type": "navigate",
+            "href": "/contact"
+          }
+        }
+      },
+      {
+        "id": "search_2",
+        "slot": "search",
+        "componentId": "button",
+        "category": "actions",
+        "componentVariant": "ghost",
+        "content": {
+          "label": "Watch Our Video",
+          "href": "/about#video",
+          "ctaStyle": "play",
+          "placement": "inline",
+          "action": {
+            "type": "navigate",
+            "href": "/about#video"
+          }
+        }
+      },
+      {
+        "id": "quickFilters_1",
+        "slot": "quickFilters",
+        "componentId": "suggestionChip",
+        "category": "ai",
+        "componentVariant": "default",
+        "content": {
+          "label": "Family Friendly Care",
+          "href": "/services",
+          "icon": "Heart"
+        }
+      },
+      {
+        "id": "quickFilters_2",
+        "slot": "quickFilters",
+        "componentId": "suggestionChip",
+        "category": "ai",
+        "componentVariant": "default",
+        "content": {
+          "label": "Advanced Technology",
+          "href": "/services",
+          "icon": "Sparkles"
+        }
+      },
+      {
+        "id": "quickFilters_3",
+        "slot": "quickFilters",
+        "componentId": "suggestionChip",
+        "category": "ai",
+        "componentVariant": "default",
+        "content": {
+          "label": "Comfortable & Painless",
+          "href": "/services",
+          "icon": "Shield"
+        }
+      },
+      {
+        "id": "quickFilters_4",
+        "slot": "quickFilters",
+        "componentId": "suggestionChip",
+        "category": "ai",
+        "componentVariant": "default",
+        "content": {
+          "label": "Personalized Treatment",
+          "href": "/services",
+          "icon": "Users"
+        }
+      },
+      {
+        "id": "media_1",
+        "slot": "media",
+        "componentId": "image",
+        "category": "media",
+        "componentVariant": "default",
+        "content": {
+          "src": "/images/curated/dental_clinic/home/hero/modern-dental-clinic-hero/modern-dental-clinic-hero_065_pixabay.jpg",
+          "alt": "Happy family receiving care at BrightSmile Dental Care",
+          "placement": "inline"
+        }
+      }
+    ]
+  }
+}

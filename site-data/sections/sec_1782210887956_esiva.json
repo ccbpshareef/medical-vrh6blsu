@@ -1,0 +1,137 @@
+{
+  "id": "sec_1782210887956_esiva",
+  "componentId": "pageFooter",
+  "slotHostId": "pageFooter",
+  "presetId": "footer_general_brightsmile_dental_clinic",
+  "presetSource": "seed",
+  "presetName": "Dental clinic Footer",
+  "role": "footer",
+  "label": "Footer",
+  "sectionFile": "sections/sec_1782210887956_esiva.json",
+  "pageNode": {
+    "id": "sec_1782210887956_esiva",
+    "component": "pageFooter",
+    "category": "appShell",
+    "variant": "boxed",
+    "content": {
+      "brand": {
+        "label": "Medical",
+        "logoLetter": "M",
+        "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+        "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+      },
+      "columns": [
+        {
+          "title": "Services",
+          "links": [
+            {
+              "label": "Home",
+              "href": "/",
+              "icon": "Home"
+            },
+            {
+              "label": "Our Team",
+              "href": "/team",
+              "icon": "Info"
+            }
+          ]
+        },
+        {
+          "title": "Patients",
+          "links": [
+            {
+              "label": "Services",
+              "href": "/services",
+              "icon": "LayoutGrid"
+            }
+          ]
+        },
+        {
+          "title": "Contact",
+          "links": [
+            {
+              "label": "Contact",
+              "href": "/contact",
+              "icon": "Contact"
+            }
+          ]
+        }
+      ],
+      "legal": {
+        "copyright": "© 2026 BrightSmile. All rights reserved.",
+        "secondaryText": "Accepting new patients · Most insurance accepted",
+        "utilityLinks": []
+      },
+      "settings": {
+        "showStatus": false,
+        "showLinkIcons": true,
+        "backgroundTheme": "studio_clean",
+        "footerLayout": "splitBrand"
+      }
+    }
+  },
+  "builderState": {
+    "presentationVariant": "boxed",
+    "brand": {
+      "label": "Medical",
+      "logoLetter": "M",
+      "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+      "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+    },
+    "columns": [
+      {
+        "id": "col_1",
+        "title": "Services",
+        "links": [
+          {
+            "id": "link_1_1",
+            "label": "Home",
+            "href": "/",
+            "icon": "Home"
+          },
+          {
+            "id": "nav_page_1782210888495_54iz8",
+            "label": "Our Team",
+            "href": "/team",
+            "icon": "Info"
+          }
+        ]
+      },
+      {
+        "id": "col_2",
+        "title": "Patients",
+        "links": [
+          {
+            "id": "link_2_1",
+            "label": "Services",
+            "href": "/services",
+            "icon": "LayoutGrid"
+          }
+        ]
+      },
+      {
+        "id": "col_3",
+        "title": "Contact",
+        "links": [
+          {
+            "id": "link_3_1",
+            "label": "Contact",
+            "href": "/contact",
+            "icon": "Contact"
+          }
+        ]
+      }
+    ],
+    "legal": {
+      "copyright": "© 2026 BrightSmile. All rights reserved.",
+      "secondaryText": "Accepting new patients · Most insurance accepted",
+      "utilityLinks": []
+    },
+    "settings": {
+      "showStatus": false,
+      "showLinkIcons": true,
+      "backgroundTheme": "studio_clean",
+      "footerLayout": "splitBrand"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "page_1782210888495_54iz8",
+  "route": "/team",
+  "title": "Our Team",
+  "sections": [
+    {
+      "id": "sec_1782210888495_egnsz",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Navbar",
+      "role": "header",
+      "label": "Navigation",
+      "sectionFile": "sections/sec_1782210888495_egnsz.json"
+    },
+    {
+      "id": "sec_1782210888495_7ozha",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light",
+      "presetSource": "seed",
+      "presetName": "Dental clinic · Family Care Hero · Light",
+      "role": "simpleHero",
+      "label": "Our Team",
+      "sectionFile": "sections/sec_1782210888495_7ozha.json"
+    },
+    {
+      "id": "sec_1782210888495_oyjm1",
+      "componentId": "aboutSection",
+      "presetId": "about_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic About",
+      "role": "stats",
+      "label": "Our team",
+      "sectionFile": "sections/sec_1782210888495_oyjm1.json"
+    },
+    {
+      "id": "sec_1782210888495_cgk8i",
+      "componentId": "aboutSection",
+      "presetId": "about_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic About",
+      "role": "stats",
+      "label": "By the numbers",
+      "sectionFile": "sections/sec_1782210888495_cgk8i.json"
+    },
+    {
+      "id": "sec_1782210888496_oq0ud",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Footer",
+      "role": "footer",
+      "label": "Footer",
+      "sectionFile": "sections/sec_1782210888496_oq0ud.json"
+    }
+  ]
+}

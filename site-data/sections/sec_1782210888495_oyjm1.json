@@ -1,0 +1,168 @@
+{
+  "id": "sec_1782210888495_oyjm1",
+  "componentId": "aboutSection",
+  "slotHostId": "aboutSection",
+  "presetId": "about_general_dental_clinic_dental_clinic",
+  "presetSource": "seed",
+  "presetName": "Dental clinic About",
+  "role": "stats",
+  "label": "Our team",
+  "sectionFile": "sections/sec_1782210888495_oyjm1.json",
+  "pageNode": {
+    "id": "sec_1782210888495_oyjm1",
+    "component": "aboutSection",
+    "category": "content",
+    "variant": "default",
+    "content": {
+      "header": {
+        "eyebrow": "About",
+        "title": "Our team",
+        "subtitle": "Fast refills · Pharmacist advice"
+      },
+      "story": {
+        "paragraphs": [
+          "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+          "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+        ],
+        "imageSrc": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1600&h=900&fit=crop&q=80&auto=format"
+      },
+      "stats": [
+        {
+          "value": "10+",
+          "label": "Years serving clients"
+        },
+        {
+          "value": "500+",
+          "label": "Projects delivered"
+        },
+        {
+          "value": "4.9",
+          "label": "Client satisfaction"
+        }
+      ],
+      "values": [
+        {
+          "title": "Clarity",
+          "description": "Plain-language guidance and transparent pricing."
+        },
+        {
+          "title": "Expertise",
+          "description": "Specialists who stay current with industry best practices."
+        },
+        {
+          "title": "Partnership",
+          "description": "We measure success by your outcomes, not just deliverables."
+        }
+      ],
+      "team": [],
+      "milestones": [
+        {
+          "date": "2018",
+          "title": "Doors open",
+          "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+        },
+        {
+          "date": "2021",
+          "title": "Neighborhood staple",
+          "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+        },
+        {
+          "date": "2024",
+          "title": "Next chapter",
+          "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+        }
+      ],
+      "settings": {
+        "layout": "split",
+        "showStats": true,
+        "showValues": true,
+        "showTeam": false,
+        "statColumns": 3,
+        "teamColumns": 3,
+        "backgroundTheme": "studio_clean"
+      }
+    }
+  },
+  "builderState": {
+    "presentationVariant": "default",
+    "header": {
+      "eyebrow": "About",
+      "title": "Our team",
+      "subtitle": "Fast refills · Pharmacist advice"
+    },
+    "story": {
+      "paragraphs": [
+        "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+        "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+      ],
+      "imageSrc": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1600&h=900&fit=crop&q=80&auto=format"
+    },
+    "stats": [
+      {
+        "id": "pro_stat_1",
+        "value": "10+",
+        "label": "Years serving clients"
+      },
+      {
+        "id": "pro_stat_2",
+        "value": "500+",
+        "label": "Projects delivered"
+      },
+      {
+        "id": "pro_stat_3",
+        "value": "4.9",
+        "label": "Client satisfaction"
+      }
+    ],
+    "values": [
+      {
+        "id": "pro_val_1",
+        "title": "Clarity",
+        "description": "Plain-language guidance and transparent pricing."
+      },
+      {
+        "id": "pro_val_2",
+        "title": "Expertise",
+        "description": "Specialists who stay current with industry best practices."
+      },
+      {
+        "id": "pro_val_3",
+        "title": "Partnership",
+        "description": "We measure success by your outcomes, not just deliverables."
+      }
+    ],
+    "team": [],
+    "milestones": [
+      {
+        "id": "milestone_1",
+        "date": "2018",
+        "title": "Doors open",
+        "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+      },
+      {
+        "id": "milestone_2",
+        "date": "2021",
+        "title": "Neighborhood staple",
+        "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+      },
+      {
+        "id": "milestone_3",
+        "date": "2024",
+        "title": "Next chapter",
+        "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+      }
+    ],
+    "settings": {
+      "layout": "split",
+      "showStats": true,
+      "showValues": true,
+      "showTeam": false,
+      "statColumns": 3,
+      "teamColumns": 3,
+      "backgroundTheme": "studio_clean"
+    },
+    "selection": {
+      "level": "section"
+    }
+  }
+}

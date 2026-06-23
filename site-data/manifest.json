@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "siteSlug": "medical-vrh6blsu",
+  "siteTitle": "Medical",
+  "updatedAt": "2026-06-23T10:36:34.435Z",
+  "pages": [
+    {
+      "id": "page_1782210887956_i050a",
+      "route": "/",
+      "title": "Home",
+      "navLabel": "Home",
+      "sectionIds": [
+        "sec_1782210887956_ahreh",
+        "sec_1782210887956_uuswv",
+        "sec_1782210887956_1nuws",
+        "sec_1782210887956_h5csd",
+        "sec_1782210887956_usv57",
+        "sec_1782210887956_3dmou",
+        "sec_1782210887956_59nj0",
+        "sec_1782210887956_esiva"
+      ]
+    },
+    {
+      "id": "page_1782210888225_ng7pa",
+      "route": "/services",
+      "title": "Services",
+      "navLabel": "Services",
+      "sectionIds": [
+        "sec_1782210888225_1t9mq",
+        "sec_1782210888225_7th4g",
+        "sec_1782210888225_mf5ir",
+        "sec_1782210888225_gm77e",
+        "sec_1782210888225_dgcxe"
+      ]
+    },
+    {
+      "id": "page_1782210888495_54iz8",
+      "route": "/team",
+      "title": "Our Team",
+      "navLabel": "Team",
+      "sectionIds": [
+        "sec_1782210888495_egnsz",
+        "sec_1782210888495_7ozha",
+        "sec_1782210888495_oyjm1",
+        "sec_1782210888495_cgk8i",
+        "sec_1782210888496_oq0ud"
+      ]
+    },
+    {
+      "id": "page_1782210888766_vokuj",
+      "route": "/contact",
+      "title": "Contact",
+      "navLabel": "Contact",
+      "sectionIds": [
+        "sec_1782210888766_lsijt",
+        "sec_1782210888766_bdt2i",
+        "sec_1782210888766_03j9o",
+        "sec_1782210888766_esfw5",
+        "sec_1782210888766_p7ncv"
+      ]
+    }
+  ],
+  "sectionIndex": {
+    "sec_1782210887956_ahreh": {
+      "sectionFile": "sections/sec_1782210887956_ahreh.json",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210887956_uuswv": {
+      "sectionFile": "sections/sec_1782210887956_uuswv.json",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light"
+    },
+    "sec_1782210887956_1nuws": {
+      "sectionFile": "sections/sec_1782210887956_1nuws.json",
+      "componentId": "testimonialSection",
+      "presetId": "testimonial_general_classic_grid_dental_clinic"
+    },
+    "sec_1782210887956_h5csd": {
+      "sectionFile": "sections/sec_1782210887956_h5csd.json",
+      "componentId": "servicesSection",
+      "presetId": "services_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210887956_usv57": {
+      "sectionFile": "sections/sec_1782210887956_usv57.json",
+      "componentId": "listingsSection",
+      "presetId": "listings_layout_splitMap_general_dental_clinic"
+    },
+    "sec_1782210887956_3dmou": {
+      "sectionFile": "sections/sec_1782210887956_3dmou.json",
+      "componentId": "aboutSection",
+      "presetId": "about_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210887956_59nj0": {
+      "sectionFile": "sections/sec_1782210887956_59nj0.json",
+      "componentId": "contactSection",
+      "presetId": "contact_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210887956_esiva": {
+      "sectionFile": "sections/sec_1782210887956_esiva.json",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210888225_1t9mq": {
+      "sectionFile": "sections/sec_1782210888225_1t9mq.json",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210888225_7th4g": {
+      "sectionFile": "sections/sec_1782210888225_7th4g.json",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light"
+    },
+    "sec_1782210888225_mf5ir": {
+      "sectionFile": "sections/sec_1782210888225_mf5ir.json",
+      "componentId": "servicesSection",
+      "presetId": "services_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210888225_gm77e": {
+      "sectionFile": "sections/sec_1782210888225_gm77e.json",
+      "componentId": "faqSection",
+      "presetId": "faq_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210888225_dgcxe": {
+      "sectionFile": "sections/sec_1782210888225_dgcxe.json",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210888495_egnsz": {
+      "sectionFile": "sections/sec_1782210888495_egnsz.json",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210888495_7ozha": {
+      "sectionFile": "sections/sec_1782210888495_7ozha.json",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light"
+    },
+    "sec_1782210888495_oyjm1": {
+      "sectionFile": "sections/sec_1782210888495_oyjm1.json",
+      "componentId": "aboutSection",
+      "presetId": "about_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210888495_cgk8i": {
+      "sectionFile": "sections/sec_1782210888495_cgk8i.json",
+      "componentId": "aboutSection",
+      "presetId": "about_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210888496_oq0ud": {
+      "sectionFile": "sections/sec_1782210888496_oq0ud.json",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210888766_lsijt": {
+      "sectionFile": "sections/sec_1782210888766_lsijt.json",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic"
+    },
+    "sec_1782210888766_bdt2i": {
+      "sectionFile": "sections/sec_1782210888766_bdt2i.json",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light"
+    },
+    "sec_1782210888766_03j9o": {
+      "sectionFile": "sections/sec_1782210888766_03j9o.json",
+      "componentId": "contactSection",
+      "presetId": "contact_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210888766_esfw5": {
+      "sectionFile": "sections/sec_1782210888766_esfw5.json",
+      "componentId": "contactSection",
+      "presetId": "contact_general_dental_clinic_dental_clinic"
+    },
+    "sec_1782210888766_p7ncv": {
+      "sectionFile": "sections/sec_1782210888766_p7ncv.json",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic"
+    }
+  }
+}

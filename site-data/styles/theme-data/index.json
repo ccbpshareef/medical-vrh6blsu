@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "name": "Webbuilder Design System",
+    "schemaVersion": "1.0.0",
+    "description": "Themes, tokens, variants, and CSS defaults — single source of truth for the showcase and registry token.* paths"
+  },
+  "files": {
+    "tokens": "tokens.json",
+    "themes": "themes.json",
+    "themeGroups": "theme-groups.json",
+    "variants": "variants.json",
+    "cssDefaults": "css-defaults.json",
+    "surfaceLayers": "surface-layers.json",
+    "foregroundMix": "foreground-mix.json"
+  }
+}

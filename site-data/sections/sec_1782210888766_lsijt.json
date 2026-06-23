@@ -1,0 +1,104 @@
+{
+  "id": "sec_1782210888766_lsijt",
+  "componentId": "navbar",
+  "slotHostId": "navbar",
+  "presetId": "navbar_general_brightsmile_dental_clinic",
+  "presetSource": "seed",
+  "presetName": "Dental clinic Navbar",
+  "role": "header",
+  "label": "Navigation",
+  "sectionFile": "sections/sec_1782210888766_lsijt.json",
+  "pageNode": {
+    "id": "sec_1782210888766_lsijt",
+    "component": "navbar",
+    "category": "navigation",
+    "variant": "glass",
+    "content": {
+      "brand": {
+        "label": "Medical",
+        "logoLetter": "M",
+        "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+        "tagline": "DENTAL CARE"
+      },
+      "items": [
+        {
+          "label": "Home",
+          "href": "/",
+          "icon": "Home"
+        },
+        {
+          "label": "Services",
+          "href": "/services",
+          "icon": "LayoutGrid"
+        },
+        {
+          "label": "Our Team",
+          "href": "/team",
+          "icon": "Info"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact",
+          "icon": "Contact"
+        }
+      ],
+      "cta": {
+        "label": "Contact",
+        "href": "/contact"
+      },
+      "settings": {
+        "showSearch": false,
+        "sticky": true,
+        "showItemIcons": false,
+        "showCartIcon": false,
+        "navbarLayout": "classicBar"
+      }
+    }
+  },
+  "builderState": {
+    "presentationVariant": "glass",
+    "brand": {
+      "label": "Medical",
+      "logoLetter": "M",
+      "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+      "tagline": "DENTAL CARE"
+    },
+    "items": [
+      {
+        "id": "nav_page_1782210887956_i050a",
+        "label": "Home",
+        "href": "/",
+        "icon": "Home"
+      },
+      {
+        "id": "nav_page_1782210888225_ng7pa",
+        "label": "Services",
+        "href": "/services",
+        "icon": "LayoutGrid"
+      },
+      {
+        "id": "nav_page_1782210888495_54iz8",
+        "label": "Our Team",
+        "href": "/team",
+        "icon": "Info"
+      },
+      {
+        "id": "nav_page_1782210888766_vokuj",
+        "label": "Contact",
+        "href": "/contact",
+        "icon": "Contact"
+      }
+    ],
+    "cta": {
+      "label": "Contact",
+      "href": "/contact"
+    },
+    "settings": {
+      "showSearch": false,
+      "sticky": true,
+      "showItemIcons": false,
+      "showCartIcon": false,
+      "navbarLayout": "classicBar"
+    }
+  }
+}

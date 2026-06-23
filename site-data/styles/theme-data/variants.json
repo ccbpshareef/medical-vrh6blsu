@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Allowed variant names aligned with component-json-registry v4",
+  "colorModes": ["dark", "light"],
+  "defaultColorMode": "light",
+  "layout": [
+    "default",
+    "boxed",
+    "fullWidth",
+    "narrow",
+    "wide",
+    "glass",
+    "layered"
+  ],
+  "navigation": [
+    "default",
+    "minimal",
+    "centered",
+    "sidebar",
+    "mobile",
+    "glass",
+    "sticky"
+  ],
+  "actions": {
+    "button": [
+      "primary",
+      "secondary",
+      "outline",
+      "ghost",
+      "destructive",
+      "glass",
+      "glossy",
+      "gradient",
+      "neon"
+    ],
+    "link": [
+      "primary",
+      "secondary",
+      "ghost",
+      "link",
+      "danger",
+      "glass",
+      "glossy",
+      "gradient"
+    ]
+  },
+  "analytics": [
+    "default",
+    "compact",
+    "dense",
+    "bordered",
+    "interactive",
+    "glass"
+  ],
+  "ai": {
+    "chat": ["default", "compact", "fullscreen", "embedded", "glass", "agent"],
+    "common": [
+      "default",
+      "compact",
+      "expanded",
+      "streaming",
+      "tool",
+      "glass",
+      "agent"
+    ]
+  }
+}

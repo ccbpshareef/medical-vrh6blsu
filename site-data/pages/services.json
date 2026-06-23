@@ -1,0 +1,57 @@
+{
+  "id": "page_1782210888225_ng7pa",
+  "route": "/services",
+  "title": "Services",
+  "sections": [
+    {
+      "id": "sec_1782210888225_1t9mq",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Navbar",
+      "role": "header",
+      "label": "Navigation",
+      "sectionFile": "sections/sec_1782210888225_1t9mq.json"
+    },
+    {
+      "id": "sec_1782210888225_7th4g",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light",
+      "presetSource": "seed",
+      "presetName": "Dental clinic · Family Care Hero · Light",
+      "role": "simpleHero",
+      "label": "Services",
+      "sectionFile": "sections/sec_1782210888225_7th4g.json"
+    },
+    {
+      "id": "sec_1782210888225_mf5ir",
+      "componentId": "servicesSection",
+      "presetId": "services_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Services",
+      "role": "services",
+      "label": "Our services",
+      "sectionFile": "sections/sec_1782210888225_mf5ir.json"
+    },
+    {
+      "id": "sec_1782210888225_gm77e",
+      "componentId": "faqSection",
+      "presetId": "faq_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic FAQ",
+      "role": "faq",
+      "label": "Pharmacy FAQ",
+      "sectionFile": "sections/sec_1782210888225_gm77e.json"
+    },
+    {
+      "id": "sec_1782210888225_dgcxe",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Footer",
+      "role": "footer",
+      "label": "Footer",
+      "sectionFile": "sections/sec_1782210888225_dgcxe.json"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Generated site preview — commit site-data/, src/, and public/ assets.
+# Ignore build output and local install state (recreated via Publish or npm install).
+
+.next/
+out/
+node_modules/
+.preview-state.json
+.publish-fingerprint.json
+.env.local
+npm-debug.log*
+*.log
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,103 @@
+{
+  "premiumTier": "agency",
+  "tone": "clinical",
+  "industryCategory": "general",
+  "industryId": "dental_clinic",
+  "businessName": "Medical",
+  "categoryId": "pharmacy",
+  "templateVariant": "clinical",
+  "designTokens": {
+    "label": "Clinical",
+    "typography": "sans-medical",
+    "spacing": "balanced",
+    "radius": "medium",
+    "themes": [
+      "ocean-blue",
+      "sky-cyan"
+    ],
+    "layoutProfile": "trust-first",
+    "navStyle": "sticky-compact",
+    "heroStyle": "appointment-focused",
+    "emphasis": "services-booking",
+    "gridColumns": 3,
+    "shadowScale": "subtle",
+    "animation": "subtle",
+    "interaction": "hover-lift",
+    "imageStyle": "clinical-clean",
+    "includeOptionalPages": [],
+    "homeSections": [
+      {
+        "role": "header",
+        "order": 0,
+        "required": true
+      },
+      {
+        "role": "hero",
+        "label": "Your neighborhood health partner",
+        "order": 1
+      },
+      {
+        "role": "testimonials",
+        "label": "What people say",
+        "order": 2
+      },
+      {
+        "role": "services",
+        "label": "Our services",
+        "order": 3
+      },
+      {
+        "role": "featured_products",
+        "label": "Health essentials",
+        "order": 4
+      },
+      {
+        "role": "stats",
+        "label": "By the numbers",
+        "order": 5
+      },
+      {
+        "role": "booking",
+        "label": "Book now",
+        "order": 6
+      },
+      {
+        "role": "footer",
+        "order": 99,
+        "required": true
+      }
+    ]
+  },
+  "themeColorId": "indigo",
+  "categoryStyle": {
+    "fontHeading": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+    "fontBody": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+    "googleFonts": [
+      "Inter:wght@400;500;600;700"
+    ],
+    "cssVars": {
+      "--wb-font-heading": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+      "--wb-font-body": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+      "--wb-radius-md": "0.625rem",
+      "--wb-shadow-md": "0 1px 2px rgba(15, 23, 42, 0.08), 0 1px 1px rgba(15, 23, 42, 0.04)",
+      "--wb-shadow-glossy": "0 1px 0 rgba(255,255,255,0.18) inset, 0 4px 16px rgba(15,23,42,0.16)",
+      "--wb-section-gap": "4.5rem",
+      "--wb-motion-normal": "150ms"
+    },
+    "source": {
+      "typography": "sans-medical",
+      "radius": "medium",
+      "shadowScale": "subtle",
+      "spacing": "balanced",
+      "animation": "subtle"
+    }
+  },
+  "primaryNavRoutes": [
+    "/",
+    "/services",
+    "/team",
+    "/contact"
+  ],
+  "colorMode": "light",
+  "siteLayoutVariant": "default"
+}

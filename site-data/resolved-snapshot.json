@@ -1,0 +1,3252 @@
+{
+  "exportedAt": "2026-06-23T10:36:34.444Z",
+  "exportMode": "copy-only",
+  "themePreferences": {
+    "colorMode": "light",
+    "themeColorId": "indigo",
+    "siteLayoutVariant": "default"
+  },
+  "project": {
+    "siteSlug": "medical-vrh6blsu",
+    "siteTitle": "Medical",
+    "folderPath": "site/medical-vrh6blsu",
+    "industryContext": {
+      "category": "general",
+      "industryId": "dental_clinic",
+      "businessName": "Medical",
+      "sourcePrompt": "build the website like medical store application",
+      "categoryId": "pharmacy",
+      "templateVariant": "clinical"
+    },
+    "theme": {
+      "premiumTier": "agency",
+      "tone": "clinical",
+      "industryCategory": "general",
+      "industryId": "dental_clinic",
+      "businessName": "Medical",
+      "categoryId": "pharmacy",
+      "templateVariant": "clinical",
+      "designTokens": {
+        "label": "Clinical",
+        "typography": "sans-medical",
+        "spacing": "balanced",
+        "radius": "medium",
+        "themes": [
+          "ocean-blue",
+          "sky-cyan"
+        ],
+        "layoutProfile": "trust-first",
+        "navStyle": "sticky-compact",
+        "heroStyle": "appointment-focused",
+        "emphasis": "services-booking",
+        "gridColumns": 3,
+        "shadowScale": "subtle",
+        "animation": "subtle",
+        "interaction": "hover-lift",
+        "imageStyle": "clinical-clean",
+        "includeOptionalPages": [],
+        "homeSections": [
+          {
+            "role": "header",
+            "order": 0,
+            "required": true
+          },
+          {
+            "role": "hero",
+            "label": "Your neighborhood health partner",
+            "order": 1
+          },
+          {
+            "role": "testimonials",
+            "label": "What people say",
+            "order": 2
+          },
+          {
+            "role": "services",
+            "label": "Our services",
+            "order": 3
+          },
+          {
+            "role": "featured_products",
+            "label": "Health essentials",
+            "order": 4
+          },
+          {
+            "role": "stats",
+            "label": "By the numbers",
+            "order": 5
+          },
+          {
+            "role": "booking",
+            "label": "Book now",
+            "order": 6
+          },
+          {
+            "role": "footer",
+            "order": 99,
+            "required": true
+          }
+        ]
+      },
+      "themeColorId": "indigo",
+      "categoryStyle": {
+        "fontHeading": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+        "fontBody": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+        "googleFonts": [
+          "Inter:wght@400;500;600;700"
+        ],
+        "cssVars": {
+          "--wb-font-heading": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+          "--wb-font-body": "'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+          "--wb-radius-md": "0.625rem",
+          "--wb-shadow-md": "0 1px 2px rgba(15, 23, 42, 0.08), 0 1px 1px rgba(15, 23, 42, 0.04)",
+          "--wb-shadow-glossy": "0 1px 0 rgba(255,255,255,0.18) inset, 0 4px 16px rgba(15,23,42,0.16)",
+          "--wb-section-gap": "4.5rem",
+          "--wb-motion-normal": "150ms"
+        },
+        "source": {
+          "typography": "sans-medical",
+          "radius": "medium",
+          "shadowScale": "subtle",
+          "spacing": "balanced",
+          "animation": "subtle"
+        }
+      },
+      "primaryNavRoutes": [
+        "/",
+        "/services",
+        "/team",
+        "/contact"
+      ],
+      "colorMode": "light",
+      "siteLayoutVariant": "default"
+    },
+    "pages": [
+      {
+        "id": "page_1782210887956_i050a",
+        "route": "/",
+        "title": "Home",
+        "navLabel": "Home",
+        "sections": [
+          {
+            "id": "sec_1782210887956_ahreh",
+            "componentId": "navbar",
+            "slotHostId": "navbar",
+            "presetId": "navbar_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Navbar",
+            "role": "header",
+            "label": "Navigation",
+            "sectionFile": "sections/sec_1782210887956_ahreh.json",
+            "pageNode": {
+              "id": "sec_1782210887956_ahreh",
+              "component": "navbar",
+              "category": "navigation",
+              "variant": "glass",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "DENTAL CARE"
+                },
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/",
+                    "icon": "Home"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services",
+                    "icon": "LayoutGrid"
+                  },
+                  {
+                    "label": "Our Team",
+                    "href": "/team",
+                    "icon": "Info"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact",
+                    "icon": "Contact"
+                  }
+                ],
+                "cta": {
+                  "label": "Contact",
+                  "href": "/contact"
+                },
+                "settings": {
+                  "showSearch": false,
+                  "sticky": true,
+                  "showItemIcons": false,
+                  "showCartIcon": false,
+                  "navbarLayout": "classicBar"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "glass",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "DENTAL CARE"
+              },
+              "items": [
+                {
+                  "id": "nav_page_1782210887956_i050a",
+                  "label": "Home",
+                  "href": "/",
+                  "icon": "Home"
+                },
+                {
+                  "id": "nav_page_1782210888225_ng7pa",
+                  "label": "Services",
+                  "href": "/services",
+                  "icon": "LayoutGrid"
+                },
+                {
+                  "id": "nav_page_1782210888495_54iz8",
+                  "label": "Our Team",
+                  "href": "/team",
+                  "icon": "Info"
+                },
+                {
+                  "id": "nav_page_1782210888766_vokuj",
+                  "label": "Contact",
+                  "href": "/contact",
+                  "icon": "Contact"
+                }
+              ],
+              "cta": {
+                "label": "Contact",
+                "href": "/contact"
+              },
+              "settings": {
+                "showSearch": false,
+                "sticky": true,
+                "showItemIcons": false,
+                "showCartIcon": false,
+                "navbarLayout": "classicBar"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210887956_uuswv",
+            "componentId": "heroSection",
+            "slotHostId": "heroSection",
+            "presetId": "hero_section_general_dental_clinic_light",
+            "presetSource": "seed",
+            "presetName": "Dental clinic · Family Care Hero · Light",
+            "role": "hero",
+            "label": "Your neighborhood health partner",
+            "sectionFile": "sections/sec_1782210887956_uuswv.json",
+            "pageNode": {
+              "id": "sec_1782210887956_uuswv",
+              "component": "heroSection",
+              "category": "content",
+              "variant": "familyCareSplit",
+              "content": {
+                "settings": {
+                  "backgroundTheme": "dental_clinic",
+                  "motionPreset": "stagger",
+                  "glassEffects": false,
+                  "glossySurfaces": false,
+                  "glowAccents": false,
+                  "mediaLayout": "split"
+                },
+                "children": [
+                  {
+                    "id": "eyebrow_1",
+                    "slot": "eyebrow",
+                    "componentId": "label",
+                    "componentVariant": "eyebrow",
+                    "content": {
+                      "label": "CARE FINDER",
+                      "icon": "Star",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "heading_1",
+                    "slot": "heading",
+                    "componentId": "heading",
+                    "componentVariant": "displaySerif",
+                    "content": {
+                      "children": "Find dental care & smile specialists near you",
+                      "accentPhrase": "Your Family",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "subtitle_1",
+                    "slot": "subtitle",
+                    "componentId": "text",
+                    "componentVariant": "lead",
+                    "content": {
+                      "children": "Search by location, filter cosmetic, family, or emergency visits — trusted clinics with verified reviews.",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "search_1",
+                    "slot": "search",
+                    "componentId": "button",
+                    "componentVariant": "primary",
+                    "content": {
+                      "label": "Book Appointment",
+                      "href": "/contact",
+                      "ctaStyle": "default",
+                      "placement": "inline",
+                      "action": {
+                        "type": "navigate",
+                        "href": "/contact"
+                      }
+                    }
+                  },
+                  {
+                    "id": "search_2",
+                    "slot": "search",
+                    "componentId": "button",
+                    "componentVariant": "ghost",
+                    "content": {
+                      "label": "Watch Our Video",
+                      "href": "/about#video",
+                      "ctaStyle": "play",
+                      "placement": "inline",
+                      "action": {
+                        "type": "navigate",
+                        "href": "/about#video"
+                      }
+                    }
+                  },
+                  {
+                    "id": "quickFilters_1",
+                    "slot": "quickFilters",
+                    "componentId": "suggestionChip",
+                    "componentVariant": "default",
+                    "content": {
+                      "label": "Family Friendly Care",
+                      "href": "/services",
+                      "icon": "Heart"
+                    }
+                  },
+                  {
+                    "id": "quickFilters_2",
+                    "slot": "quickFilters",
+                    "componentId": "suggestionChip",
+                    "componentVariant": "default",
+                    "content": {
+                      "label": "Advanced Technology",
+                      "href": "/services",
+                      "icon": "Sparkles"
+                    }
+                  },
+                  {
+                    "id": "quickFilters_3",
+                    "slot": "quickFilters",
+                    "componentId": "suggestionChip",
+                    "componentVariant": "default",
+                    "content": {
+                      "label": "Comfortable & Painless",
+                      "href": "/services",
+                      "icon": "Shield"
+                    }
+                  },
+                  {
+                    "id": "quickFilters_4",
+                    "slot": "quickFilters",
+                    "componentId": "suggestionChip",
+                    "componentVariant": "default",
+                    "content": {
+                      "label": "Personalized Treatment",
+                      "href": "/services",
+                      "icon": "Users"
+                    }
+                  },
+                  {
+                    "id": "media_1",
+                    "slot": "media",
+                    "componentId": "image",
+                    "componentVariant": "default",
+                    "content": {
+                      "src": "/images/curated/dental_clinic/home/hero/modern-dental-clinic-hero/modern-dental-clinic-hero_065_pixabay.jpg",
+                      "alt": "Happy family receiving care at BrightSmile Dental Care",
+                      "placement": "inline"
+                    }
+                  }
+                ]
+              }
+            },
+            "builderState": {
+              "presentationVariant": "familyCareSplit",
+              "settings": {
+                "backgroundTheme": "dental_clinic",
+                "motionPreset": "stagger",
+                "glassEffects": false,
+                "glossySurfaces": false,
+                "glowAccents": false,
+                "mediaLayout": "split"
+              },
+              "children": [
+                {
+                  "id": "eyebrow_1",
+                  "slot": "eyebrow",
+                  "componentId": "label",
+                  "category": "typography",
+                  "componentVariant": "eyebrow",
+                  "content": {
+                    "label": "CARE FINDER",
+                    "icon": "Star",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "heading_1",
+                  "slot": "heading",
+                  "componentId": "heading",
+                  "category": "typography",
+                  "componentVariant": "displaySerif",
+                  "content": {
+                    "children": "Find dental care & smile specialists near you",
+                    "accentPhrase": "Your Family",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "subtitle_1",
+                  "slot": "subtitle",
+                  "componentId": "text",
+                  "category": "typography",
+                  "componentVariant": "lead",
+                  "content": {
+                    "children": "Search by location, filter cosmetic, family, or emergency visits — trusted clinics with verified reviews.",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "search_1",
+                  "slot": "search",
+                  "componentId": "button",
+                  "category": "actions",
+                  "componentVariant": "primary",
+                  "content": {
+                    "label": "Book Appointment",
+                    "href": "/contact",
+                    "ctaStyle": "default",
+                    "placement": "inline",
+                    "action": {
+                      "type": "navigate",
+                      "href": "/contact"
+                    }
+                  }
+                },
+                {
+                  "id": "search_2",
+                  "slot": "search",
+                  "componentId": "button",
+                  "category": "actions",
+                  "componentVariant": "ghost",
+                  "content": {
+                    "label": "Watch Our Video",
+                    "href": "/about#video",
+                    "ctaStyle": "play",
+                    "placement": "inline",
+                    "action": {
+                      "type": "navigate",
+                      "href": "/about#video"
+                    }
+                  }
+                },
+                {
+                  "id": "quickFilters_1",
+                  "slot": "quickFilters",
+                  "componentId": "suggestionChip",
+                  "category": "ai",
+                  "componentVariant": "default",
+                  "content": {
+                    "label": "Family Friendly Care",
+                    "href": "/services",
+                    "icon": "Heart"
+                  }
+                },
+                {
+                  "id": "quickFilters_2",
+                  "slot": "quickFilters",
+                  "componentId": "suggestionChip",
+                  "category": "ai",
+                  "componentVariant": "default",
+                  "content": {
+                    "label": "Advanced Technology",
+                    "href": "/services",
+                    "icon": "Sparkles"
+                  }
+                },
+                {
+                  "id": "quickFilters_3",
+                  "slot": "quickFilters",
+                  "componentId": "suggestionChip",
+                  "category": "ai",
+                  "componentVariant": "default",
+                  "content": {
+                    "label": "Comfortable & Painless",
+                    "href": "/services",
+                    "icon": "Shield"
+                  }
+                },
+                {
+                  "id": "quickFilters_4",
+                  "slot": "quickFilters",
+                  "componentId": "suggestionChip",
+                  "category": "ai",
+                  "componentVariant": "default",
+                  "content": {
+                    "label": "Personalized Treatment",
+                    "href": "/services",
+                    "icon": "Users"
+                  }
+                },
+                {
+                  "id": "media_1",
+                  "slot": "media",
+                  "componentId": "image",
+                  "category": "media",
+                  "componentVariant": "default",
+                  "content": {
+                    "src": "/images/curated/dental_clinic/home/hero/modern-dental-clinic-hero/modern-dental-clinic-hero_065_pixabay.jpg",
+                    "alt": "Happy family receiving care at BrightSmile Dental Care",
+                    "placement": "inline"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "sec_1782210887956_1nuws",
+            "componentId": "testimonialSection",
+            "slotHostId": "testimonialSection",
+            "presetId": "testimonial_general_classic_grid_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic · Classic grid",
+            "role": "testimonials",
+            "label": "What people say",
+            "sectionFile": "sections/sec_1782210887956_1nuws.json",
+            "pageNode": {
+              "id": "sec_1782210887956_1nuws",
+              "component": "testimonialSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "Patient stories",
+                  "title": "Smiles we're proud of",
+                  "subtitle": "Honest feedback from patients who trust us for routine care, cosmetic work, and emergency visits."
+                },
+                "items": [
+                  {
+                    "quote": "I used to dread dental visits. The team explained every step, kept me comfortable, and my cleaning was genuinely painless.",
+                    "author": "Sarah Mitchell",
+                    "role": "Patient",
+                    "rating": 5,
+                    "featured": true,
+                    "avatarInitials": "SM"
+                  },
+                  {
+                    "quote": "They fit my son in same-day when he chipped a tooth. Professional, calm, and kind — exactly what we needed.",
+                    "author": "David Park",
+                    "role": "Parent",
+                    "rating": 5,
+                    "featured": true,
+                    "avatarInitials": "DP"
+                  },
+                  {
+                    "quote": "My Invisalign journey was smoother than I expected. Clear timelines, transparent pricing, and results I'm happy to show off.",
+                    "author": "Rachel Kim",
+                    "role": "Cosmetic patient",
+                    "rating": 5,
+                    "featured": false,
+                    "avatarInitials": "RK"
+                  },
+                  {
+                    "quote": "Front desk verified insurance before my appointment and there were no billing surprises. That level of clarity is rare.",
+                    "author": "Michael Torres",
+                    "role": "New patient",
+                    "rating": 4,
+                    "featured": false,
+                    "avatarInitials": "MT"
+                  }
+                ],
+                "settings": {
+                  "cardVariant": "featured",
+                  "cardLayout": "classic",
+                  "columns": 3,
+                  "showRating": true,
+                  "showAvatars": true,
+                  "backgroundTheme": "studio_clean"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "Patient stories",
+                "title": "Smiles we're proud of",
+                "subtitle": "Honest feedback from patients who trust us for routine care, cosmetic work, and emergency visits."
+              },
+              "items": [
+                {
+                  "id": "testimonial_dental_clinic_classic_grid_1",
+                  "quote": "I used to dread dental visits. The team explained every step, kept me comfortable, and my cleaning was genuinely painless.",
+                  "author": "Sarah Mitchell",
+                  "role": "Patient",
+                  "rating": 5,
+                  "featured": true,
+                  "avatarInitials": "SM"
+                },
+                {
+                  "id": "testimonial_dental_clinic_classic_grid_2",
+                  "quote": "They fit my son in same-day when he chipped a tooth. Professional, calm, and kind — exactly what we needed.",
+                  "author": "David Park",
+                  "role": "Parent",
+                  "rating": 5,
+                  "featured": true,
+                  "avatarInitials": "DP"
+                },
+                {
+                  "id": "testimonial_dental_clinic_classic_grid_3",
+                  "quote": "My Invisalign journey was smoother than I expected. Clear timelines, transparent pricing, and results I'm happy to show off.",
+                  "author": "Rachel Kim",
+                  "role": "Cosmetic patient",
+                  "rating": 5,
+                  "featured": false,
+                  "avatarInitials": "RK"
+                },
+                {
+                  "id": "testimonial_dental_clinic_classic_grid_4",
+                  "quote": "Front desk verified insurance before my appointment and there were no billing surprises. That level of clarity is rare.",
+                  "author": "Michael Torres",
+                  "role": "New patient",
+                  "rating": 4,
+                  "featured": false,
+                  "avatarInitials": "MT"
+                }
+              ],
+              "settings": {
+                "cardVariant": "featured",
+                "cardLayout": "classic",
+                "columns": 3,
+                "showRating": true,
+                "showAvatars": true,
+                "backgroundTheme": "studio_clean"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210887956_h5csd",
+            "componentId": "servicesSection",
+            "slotHostId": "servicesSection",
+            "presetId": "services_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Services",
+            "role": "services",
+            "label": "Our services",
+            "sectionFile": "sections/sec_1782210887956_h5csd.json",
+            "pageNode": {
+              "id": "sec_1782210887956_h5csd",
+              "component": "servicesSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "Services",
+                  "title": "How Medical helps clients",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "items": [
+                  {
+                    "title": "Preventive care",
+                    "category": "General",
+                    "description": "Cleanings, exams, and hygiene plans for every age.",
+                    "icon": "sparkles",
+                    "featured": true
+                  },
+                  {
+                    "title": "Cosmetic dentistry",
+                    "category": "Smile",
+                    "description": "Whitening, veneers, and smile design with digital previews.",
+                    "icon": "star",
+                    "featured": false
+                  },
+                  {
+                    "title": "Emergency visits",
+                    "category": "Urgent",
+                    "description": "Same-week relief for pain, chips, and urgent dental needs.",
+                    "icon": "clock",
+                    "featured": false
+                  }
+                ],
+                "settings": {
+                  "cardVariant": "featured",
+                  "columns": 3,
+                  "showCategoryTabs": true,
+                  "showBadges": true,
+                  "showDescriptions": true,
+                  "showIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "servicesLayout": "classicGrid"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "Services",
+                "title": "How Medical helps clients",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "items": [
+                {
+                  "id": "pro_svc_dental_clinic_1",
+                  "title": "Preventive care",
+                  "category": "General",
+                  "description": "Cleanings, exams, and hygiene plans for every age.",
+                  "icon": "sparkles",
+                  "featured": true
+                },
+                {
+                  "id": "pro_svc_dental_clinic_2",
+                  "title": "Cosmetic dentistry",
+                  "category": "Smile",
+                  "description": "Whitening, veneers, and smile design with digital previews.",
+                  "icon": "star",
+                  "featured": false
+                },
+                {
+                  "id": "pro_svc_dental_clinic_3",
+                  "title": "Emergency visits",
+                  "category": "Urgent",
+                  "description": "Same-week relief for pain, chips, and urgent dental needs.",
+                  "icon": "clock",
+                  "featured": false
+                }
+              ],
+              "settings": {
+                "cardVariant": "featured",
+                "columns": 3,
+                "showCategoryTabs": true,
+                "showBadges": true,
+                "showDescriptions": true,
+                "showIcons": true,
+                "backgroundTheme": "studio_clean",
+                "servicesLayout": "classicGrid"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210887956_usv57",
+            "componentId": "listingsSection",
+            "slotHostId": "listingsSection",
+            "presetId": "listings_layout_splitMap_general_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic · Split map Listings",
+            "role": "cards",
+            "label": "Health essentials",
+            "sectionFile": "sections/sec_1782210887956_usv57.json",
+            "pageNode": {
+              "id": "sec_1782210887956_usv57",
+              "component": "listingsSection",
+              "category": "content",
+              "variant": "featured",
+              "content": {
+                "header": {
+                  "eyebrow": "Featured",
+                  "title": "Health essentials",
+                  "subtitle": "Pharmacists who know your name"
+                },
+                "items": [
+                  {
+                    "title": "Community Pharmacy",
+                    "price": "",
+                    "address": "Fast refills",
+                    "badge": "Community Pharmacy",
+                    "featured": true
+                  },
+                  {
+                    "title": "Online Pharmacy",
+                    "price": "",
+                    "address": "Pharmacist advice",
+                    "badge": "Online Pharmacy",
+                    "featured": false
+                  },
+                  {
+                    "title": "Specialty Pharmacy",
+                    "price": "",
+                    "address": "Home delivery",
+                    "badge": "Specialty Pharmacy",
+                    "featured": false
+                  },
+                  {
+                    "title": "Fast refills",
+                    "price": "",
+                    "address": "Health essentials",
+                    "badge": "Community Pharmacy",
+                    "featured": false
+                  },
+                  {
+                    "title": "Pharmacist advice",
+                    "price": "",
+                    "address": "Fast refills",
+                    "badge": "Online Pharmacy",
+                    "featured": false
+                  },
+                  {
+                    "title": "Home delivery",
+                    "price": "",
+                    "address": "Pharmacist advice",
+                    "badge": "Specialty Pharmacy",
+                    "featured": false
+                  }
+                ],
+                "settings": {
+                  "columns": 2,
+                  "showPrices": false,
+                  "showDetails": false,
+                  "backgroundTheme": "studio_clean",
+                  "listingsLayout": "splitMap"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "featured",
+              "header": {
+                "eyebrow": "Featured",
+                "title": "Health essentials",
+                "subtitle": "Pharmacists who know your name"
+              },
+              "items": [
+                {
+                  "id": "lst_dental_clinic_1",
+                  "title": "Community Pharmacy",
+                  "price": "",
+                  "address": "Fast refills",
+                  "badge": "Community Pharmacy",
+                  "featured": true,
+                  "imageSrc": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                {
+                  "id": "lst_dental_clinic_2",
+                  "title": "Online Pharmacy",
+                  "price": "",
+                  "address": "Pharmacist advice",
+                  "badge": "Online Pharmacy",
+                  "featured": false,
+                  "imageSrc": "https://images.unsplash.com/photo-1666886573531-48d2e3c2b684?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                {
+                  "id": "lst_dental_clinic_3",
+                  "title": "Specialty Pharmacy",
+                  "price": "",
+                  "address": "Home delivery",
+                  "badge": "Specialty Pharmacy",
+                  "featured": false,
+                  "imageSrc": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                {
+                  "id": "lst_dental_clinic_4",
+                  "title": "Fast refills",
+                  "price": "",
+                  "address": "Health essentials",
+                  "badge": "Community Pharmacy",
+                  "featured": false,
+                  "imageSrc": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                {
+                  "id": "lst_dental_clinic_5",
+                  "title": "Pharmacist advice",
+                  "price": "",
+                  "address": "Fast refills",
+                  "badge": "Online Pharmacy",
+                  "featured": false,
+                  "imageSrc": "https://images.unsplash.com/photo-1666887360680-9dc27a1d2753?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                {
+                  "id": "lst_dental_clinic_6",
+                  "title": "Home delivery",
+                  "price": "",
+                  "address": "Pharmacist advice",
+                  "badge": "Specialty Pharmacy",
+                  "featured": false,
+                  "imageSrc": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=1600&h=900&fit=crop&q=80&auto=format"
+                }
+              ],
+              "settings": {
+                "columns": 2,
+                "showPrices": false,
+                "showDetails": false,
+                "backgroundTheme": "studio_clean",
+                "listingsLayout": "splitMap"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210887956_3dmou",
+            "componentId": "aboutSection",
+            "slotHostId": "aboutSection",
+            "presetId": "about_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic About",
+            "role": "stats",
+            "label": "By the numbers",
+            "sectionFile": "sections/sec_1782210887956_3dmou.json",
+            "pageNode": {
+              "id": "sec_1782210887956_3dmou",
+              "component": "aboutSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "About",
+                  "title": "By the numbers",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "story": {
+                  "paragraphs": [
+                    "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+                    "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+                  ],
+                  "imageSrc": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                "stats": [
+                  {
+                    "value": "10+",
+                    "label": "Years serving clients"
+                  },
+                  {
+                    "value": "500+",
+                    "label": "Projects delivered"
+                  },
+                  {
+                    "value": "4.9",
+                    "label": "Client satisfaction"
+                  }
+                ],
+                "values": [
+                  {
+                    "title": "Clarity",
+                    "description": "Plain-language guidance and transparent pricing."
+                  },
+                  {
+                    "title": "Expertise",
+                    "description": "Specialists who stay current with industry best practices."
+                  },
+                  {
+                    "title": "Partnership",
+                    "description": "We measure success by your outcomes, not just deliverables."
+                  }
+                ],
+                "team": [],
+                "milestones": [
+                  {
+                    "date": "2018",
+                    "title": "Doors open",
+                    "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+                  },
+                  {
+                    "date": "2021",
+                    "title": "Neighborhood staple",
+                    "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+                  },
+                  {
+                    "date": "2024",
+                    "title": "Next chapter",
+                    "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+                  }
+                ],
+                "settings": {
+                  "layout": "split",
+                  "showStats": true,
+                  "showValues": true,
+                  "showTeam": false,
+                  "statColumns": 3,
+                  "teamColumns": 3,
+                  "backgroundTheme": "studio_clean"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "About",
+                "title": "By the numbers",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "story": {
+                "paragraphs": [
+                  "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+                  "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+                ],
+                "imageSrc": "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=1600&h=900&fit=crop&q=80&auto=format"
+              },
+              "stats": [
+                {
+                  "id": "pro_stat_1",
+                  "value": "10+",
+                  "label": "Years serving clients"
+                },
+                {
+                  "id": "pro_stat_2",
+                  "value": "500+",
+                  "label": "Projects delivered"
+                },
+                {
+                  "id": "pro_stat_3",
+                  "value": "4.9",
+                  "label": "Client satisfaction"
+                }
+              ],
+              "values": [
+                {
+                  "id": "pro_val_1",
+                  "title": "Clarity",
+                  "description": "Plain-language guidance and transparent pricing."
+                },
+                {
+                  "id": "pro_val_2",
+                  "title": "Expertise",
+                  "description": "Specialists who stay current with industry best practices."
+                },
+                {
+                  "id": "pro_val_3",
+                  "title": "Partnership",
+                  "description": "We measure success by your outcomes, not just deliverables."
+                }
+              ],
+              "team": [],
+              "milestones": [
+                {
+                  "id": "milestone_1",
+                  "date": "2018",
+                  "title": "Doors open",
+                  "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+                },
+                {
+                  "id": "milestone_2",
+                  "date": "2021",
+                  "title": "Neighborhood staple",
+                  "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+                },
+                {
+                  "id": "milestone_3",
+                  "date": "2024",
+                  "title": "Next chapter",
+                  "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+                }
+              ],
+              "settings": {
+                "layout": "split",
+                "showStats": true,
+                "showValues": true,
+                "showTeam": false,
+                "statColumns": 3,
+                "teamColumns": 3,
+                "backgroundTheme": "studio_clean"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210887956_59nj0",
+            "componentId": "contactSection",
+            "slotHostId": "contactSection",
+            "presetId": "contact_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Contact",
+            "role": "contact",
+            "label": "Book now",
+            "sectionFile": "sections/sec_1782210887956_59nj0.json",
+            "pageNode": {
+              "id": "sec_1782210887956_59nj0",
+              "component": "contactSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "Contact",
+                  "title": "Refill or ask a pharmacist",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "items": [
+                  {
+                    "label": "Email",
+                    "value": "hello@medical.com",
+                    "icon": "mail",
+                    "href": "mailto:hello@example.com"
+                  },
+                  {
+                    "label": "Phone",
+                    "value": "(555) 010-2400",
+                    "icon": "phone",
+                    "href": "tel:+15550102400"
+                  },
+                  {
+                    "label": "Hours",
+                    "value": "Mon–Fri · 9am–6pm",
+                    "icon": "clock"
+                  }
+                ],
+                "settings": {
+                  "layout": "splitShowcase",
+                  "showIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "cardSize": "default",
+                  "columns": 2,
+                  "headerScale": "default"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "Contact",
+                "title": "Refill or ask a pharmacist",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "items": [
+                {
+                  "id": "pro_email",
+                  "label": "Email",
+                  "value": "hello@medical.com",
+                  "href": "mailto:hello@example.com",
+                  "icon": "mail"
+                },
+                {
+                  "id": "pro_phone",
+                  "label": "Phone",
+                  "value": "(555) 010-2400",
+                  "href": "tel:+15550102400",
+                  "icon": "phone"
+                },
+                {
+                  "id": "pro_hours",
+                  "label": "Hours",
+                  "value": "Mon–Fri · 9am–6pm",
+                  "icon": "clock"
+                }
+              ],
+              "settings": {
+                "layout": "splitShowcase",
+                "showIcons": true,
+                "backgroundTheme": "studio_clean",
+                "cardSize": "default",
+                "columns": 2,
+                "headerScale": "default"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210887956_esiva",
+            "componentId": "pageFooter",
+            "slotHostId": "pageFooter",
+            "presetId": "footer_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Footer",
+            "role": "footer",
+            "label": "Footer",
+            "sectionFile": "sections/sec_1782210887956_esiva.json",
+            "pageNode": {
+              "id": "sec_1782210887956_esiva",
+              "component": "pageFooter",
+              "category": "appShell",
+              "variant": "boxed",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+                },
+                "columns": [
+                  {
+                    "title": "Services",
+                    "links": [
+                      {
+                        "label": "Home",
+                        "href": "/",
+                        "icon": "Home"
+                      },
+                      {
+                        "label": "Our Team",
+                        "href": "/team",
+                        "icon": "Info"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Patients",
+                    "links": [
+                      {
+                        "label": "Services",
+                        "href": "/services",
+                        "icon": "LayoutGrid"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Contact",
+                    "links": [
+                      {
+                        "label": "Contact",
+                        "href": "/contact",
+                        "icon": "Contact"
+                      }
+                    ]
+                  }
+                ],
+                "legal": {
+                  "copyright": "© 2026 BrightSmile. All rights reserved.",
+                  "secondaryText": "Accepting new patients · Most insurance accepted",
+                  "utilityLinks": []
+                },
+                "settings": {
+                  "showStatus": false,
+                  "showLinkIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "footerLayout": "splitBrand"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "boxed",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+              },
+              "columns": [
+                {
+                  "id": "col_1",
+                  "title": "Services",
+                  "links": [
+                    {
+                      "id": "link_1_1",
+                      "label": "Home",
+                      "href": "/",
+                      "icon": "Home"
+                    },
+                    {
+                      "id": "nav_page_1782210888495_54iz8",
+                      "label": "Our Team",
+                      "href": "/team",
+                      "icon": "Info"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_2",
+                  "title": "Patients",
+                  "links": [
+                    {
+                      "id": "link_2_1",
+                      "label": "Services",
+                      "href": "/services",
+                      "icon": "LayoutGrid"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_3",
+                  "title": "Contact",
+                  "links": [
+                    {
+                      "id": "link_3_1",
+                      "label": "Contact",
+                      "href": "/contact",
+                      "icon": "Contact"
+                    }
+                  ]
+                }
+              ],
+              "legal": {
+                "copyright": "© 2026 BrightSmile. All rights reserved.",
+                "secondaryText": "Accepting new patients · Most insurance accepted",
+                "utilityLinks": []
+              },
+              "settings": {
+                "showStatus": false,
+                "showLinkIcons": true,
+                "backgroundTheme": "studio_clean",
+                "footerLayout": "splitBrand"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "page_1782210888225_ng7pa",
+        "route": "/services",
+        "title": "Services",
+        "navLabel": "Services",
+        "sections": [
+          {
+            "id": "sec_1782210888225_1t9mq",
+            "componentId": "navbar",
+            "slotHostId": "navbar",
+            "presetId": "navbar_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Navbar",
+            "role": "header",
+            "label": "Navigation",
+            "sectionFile": "sections/sec_1782210888225_1t9mq.json",
+            "pageNode": {
+              "id": "sec_1782210888225_1t9mq",
+              "component": "navbar",
+              "category": "navigation",
+              "variant": "glass",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "DENTAL CARE"
+                },
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/",
+                    "icon": "Home"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services",
+                    "icon": "LayoutGrid"
+                  },
+                  {
+                    "label": "Our Team",
+                    "href": "/team",
+                    "icon": "Info"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact",
+                    "icon": "Contact"
+                  }
+                ],
+                "cta": {
+                  "label": "Contact",
+                  "href": "/contact"
+                },
+                "settings": {
+                  "showSearch": false,
+                  "sticky": true,
+                  "showItemIcons": false,
+                  "showCartIcon": false,
+                  "navbarLayout": "classicBar"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "glass",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "DENTAL CARE"
+              },
+              "items": [
+                {
+                  "id": "nav_page_1782210887956_i050a",
+                  "label": "Home",
+                  "href": "/",
+                  "icon": "Home"
+                },
+                {
+                  "id": "nav_page_1782210888225_ng7pa",
+                  "label": "Services",
+                  "href": "/services",
+                  "icon": "LayoutGrid"
+                },
+                {
+                  "id": "nav_page_1782210888495_54iz8",
+                  "label": "Our Team",
+                  "href": "/team",
+                  "icon": "Info"
+                },
+                {
+                  "id": "nav_page_1782210888766_vokuj",
+                  "label": "Contact",
+                  "href": "/contact",
+                  "icon": "Contact"
+                }
+              ],
+              "cta": {
+                "label": "Contact",
+                "href": "/contact"
+              },
+              "settings": {
+                "showSearch": false,
+                "sticky": true,
+                "showItemIcons": false,
+                "showCartIcon": false,
+                "navbarLayout": "classicBar"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888225_7th4g",
+            "componentId": "heroSection",
+            "slotHostId": "heroSection",
+            "presetId": "hero_section_general_dental_clinic_light",
+            "presetSource": "seed",
+            "presetName": "Dental clinic · Family Care Hero · Light",
+            "role": "simpleHero",
+            "label": "Services",
+            "sectionFile": "sections/sec_1782210888225_7th4g.json",
+            "pageNode": {
+              "id": "sec_1782210888225_7th4g",
+              "component": "heroSection",
+              "category": "content",
+              "variant": "centeredStack",
+              "content": {
+                "settings": {
+                  "backgroundTheme": "dental_clinic",
+                  "motionPreset": "fadeUp",
+                  "glassEffects": true,
+                  "glossySurfaces": false,
+                  "glowAccents": false
+                },
+                "children": [
+                  {
+                    "id": "eyebrow_1",
+                    "slot": "eyebrow",
+                    "componentId": "label",
+                    "componentVariant": "eyebrow",
+                    "content": {
+                      "children": "Medical",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "heading_1",
+                    "slot": "heading",
+                    "componentId": "heading",
+                    "componentVariant": "default",
+                    "content": {
+                      "children": "Our services",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "subtitle_1",
+                    "slot": "subtitle",
+                    "componentId": "text",
+                    "componentVariant": "lead",
+                    "content": {
+                      "children": "Explore what Medical offers — solutions built for your goals.",
+                      "placement": "inline"
+                    }
+                  }
+                ]
+              }
+            },
+            "builderState": {
+              "presentationVariant": "centeredStack",
+              "settings": {
+                "backgroundTheme": "dental_clinic",
+                "motionPreset": "fadeUp",
+                "glassEffects": true,
+                "glossySurfaces": false,
+                "glowAccents": false
+              },
+              "children": [
+                {
+                  "id": "eyebrow_1",
+                  "slot": "eyebrow",
+                  "componentId": "label",
+                  "category": "typography",
+                  "componentVariant": "eyebrow",
+                  "content": {
+                    "children": "Medical",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "heading_1",
+                  "slot": "heading",
+                  "componentId": "heading",
+                  "category": "typography",
+                  "componentVariant": "default",
+                  "content": {
+                    "children": "Our services",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "subtitle_1",
+                  "slot": "subtitle",
+                  "componentId": "text",
+                  "category": "typography",
+                  "componentVariant": "lead",
+                  "content": {
+                    "children": "Explore what Medical offers — solutions built for your goals.",
+                    "placement": "inline"
+                  }
+                }
+              ],
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888225_mf5ir",
+            "componentId": "servicesSection",
+            "slotHostId": "servicesSection",
+            "presetId": "services_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Services",
+            "role": "services",
+            "label": "Our services",
+            "sectionFile": "sections/sec_1782210888225_mf5ir.json",
+            "pageNode": {
+              "id": "sec_1782210888225_mf5ir",
+              "component": "servicesSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "Services",
+                  "title": "How Medical helps clients",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "items": [
+                  {
+                    "title": "Preventive care",
+                    "category": "General",
+                    "description": "Cleanings, exams, and hygiene plans for every age.",
+                    "icon": "sparkles",
+                    "featured": true
+                  },
+                  {
+                    "title": "Cosmetic dentistry",
+                    "category": "Smile",
+                    "description": "Whitening, veneers, and smile design with digital previews.",
+                    "icon": "star",
+                    "featured": false
+                  },
+                  {
+                    "title": "Emergency visits",
+                    "category": "Urgent",
+                    "description": "Same-week relief for pain, chips, and urgent dental needs.",
+                    "icon": "clock",
+                    "featured": false
+                  }
+                ],
+                "settings": {
+                  "cardVariant": "featured",
+                  "columns": 3,
+                  "showCategoryTabs": true,
+                  "showBadges": true,
+                  "showDescriptions": true,
+                  "showIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "servicesLayout": "classicGrid"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "Services",
+                "title": "How Medical helps clients",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "items": [
+                {
+                  "id": "pro_svc_dental_clinic_1",
+                  "title": "Preventive care",
+                  "category": "General",
+                  "description": "Cleanings, exams, and hygiene plans for every age.",
+                  "icon": "sparkles",
+                  "featured": true
+                },
+                {
+                  "id": "pro_svc_dental_clinic_2",
+                  "title": "Cosmetic dentistry",
+                  "category": "Smile",
+                  "description": "Whitening, veneers, and smile design with digital previews.",
+                  "icon": "star",
+                  "featured": false
+                },
+                {
+                  "id": "pro_svc_dental_clinic_3",
+                  "title": "Emergency visits",
+                  "category": "Urgent",
+                  "description": "Same-week relief for pain, chips, and urgent dental needs.",
+                  "icon": "clock",
+                  "featured": false
+                }
+              ],
+              "settings": {
+                "cardVariant": "featured",
+                "columns": 3,
+                "showCategoryTabs": true,
+                "showBadges": true,
+                "showDescriptions": true,
+                "showIcons": true,
+                "backgroundTheme": "studio_clean",
+                "servicesLayout": "classicGrid"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888225_gm77e",
+            "componentId": "faqSection",
+            "slotHostId": "faqSection",
+            "presetId": "faq_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic FAQ",
+            "role": "faq",
+            "label": "Pharmacy FAQ",
+            "sectionFile": "sections/sec_1782210888225_gm77e.json",
+            "pageNode": {
+              "id": "sec_1782210888225_gm77e",
+              "component": "faqSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "FAQ",
+                  "title": "Common questions",
+                  "subtitle": "Quick answers about working with Medical."
+                },
+                "items": [
+                  {
+                    "question": "How do we get started?",
+                    "answer": "Book a consultation — we'll scope goals, timeline, and next steps."
+                  },
+                  {
+                    "question": "What industries do you serve?",
+                    "answer": "We work with organizations of all sizes across our core practice areas."
+                  },
+                  {
+                    "question": "Do you offer ongoing support?",
+                    "answer": "Yes — retainers and success plans are available after initial delivery."
+                  },
+                  {
+                    "question": "How is pricing structured?",
+                    "answer": "Fixed-scope and monthly options with clear statements of work."
+                  }
+                ],
+                "settings": {
+                  "allowMultipleOpen": false,
+                  "showSearch": true,
+                  "showNumbers": true,
+                  "faqLayout": "singleColumn"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "FAQ",
+                "title": "Common questions",
+                "subtitle": "Quick answers about working with Medical."
+              },
+              "items": [
+                {
+                  "id": "pro_faq_1",
+                  "question": "How do we get started?",
+                  "answer": "Book a consultation — we'll scope goals, timeline, and next steps."
+                },
+                {
+                  "id": "pro_faq_2",
+                  "question": "What industries do you serve?",
+                  "answer": "We work with organizations of all sizes across our core practice areas."
+                },
+                {
+                  "id": "pro_faq_3",
+                  "question": "Do you offer ongoing support?",
+                  "answer": "Yes — retainers and success plans are available after initial delivery."
+                },
+                {
+                  "id": "pro_faq_4",
+                  "question": "How is pricing structured?",
+                  "answer": "Fixed-scope and monthly options with clear statements of work."
+                }
+              ],
+              "settings": {
+                "allowMultipleOpen": false,
+                "showSearch": true,
+                "showNumbers": true,
+                "faqLayout": "singleColumn"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888225_dgcxe",
+            "componentId": "pageFooter",
+            "slotHostId": "pageFooter",
+            "presetId": "footer_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Footer",
+            "role": "footer",
+            "label": "Footer",
+            "sectionFile": "sections/sec_1782210888225_dgcxe.json",
+            "pageNode": {
+              "id": "sec_1782210888225_dgcxe",
+              "component": "pageFooter",
+              "category": "appShell",
+              "variant": "boxed",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+                },
+                "columns": [
+                  {
+                    "title": "Services",
+                    "links": [
+                      {
+                        "label": "Home",
+                        "href": "/",
+                        "icon": "Home"
+                      },
+                      {
+                        "label": "Our Team",
+                        "href": "/team",
+                        "icon": "Info"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Patients",
+                    "links": [
+                      {
+                        "label": "Services",
+                        "href": "/services",
+                        "icon": "LayoutGrid"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Contact",
+                    "links": [
+                      {
+                        "label": "Contact",
+                        "href": "/contact",
+                        "icon": "Contact"
+                      }
+                    ]
+                  }
+                ],
+                "legal": {
+                  "copyright": "© 2026 BrightSmile. All rights reserved.",
+                  "secondaryText": "Accepting new patients · Most insurance accepted",
+                  "utilityLinks": []
+                },
+                "settings": {
+                  "showStatus": false,
+                  "showLinkIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "footerLayout": "splitBrand"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "boxed",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+              },
+              "columns": [
+                {
+                  "id": "col_1",
+                  "title": "Services",
+                  "links": [
+                    {
+                      "id": "link_1_1",
+                      "label": "Home",
+                      "href": "/",
+                      "icon": "Home"
+                    },
+                    {
+                      "id": "nav_page_1782210888495_54iz8",
+                      "label": "Our Team",
+                      "href": "/team",
+                      "icon": "Info"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_2",
+                  "title": "Patients",
+                  "links": [
+                    {
+                      "id": "link_2_1",
+                      "label": "Services",
+                      "href": "/services",
+                      "icon": "LayoutGrid"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_3",
+                  "title": "Contact",
+                  "links": [
+                    {
+                      "id": "link_3_1",
+                      "label": "Contact",
+                      "href": "/contact",
+                      "icon": "Contact"
+                    }
+                  ]
+                }
+              ],
+              "legal": {
+                "copyright": "© 2026 BrightSmile. All rights reserved.",
+                "secondaryText": "Accepting new patients · Most insurance accepted",
+                "utilityLinks": []
+              },
+              "settings": {
+                "showStatus": false,
+                "showLinkIcons": true,
+                "backgroundTheme": "studio_clean",
+                "footerLayout": "splitBrand"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "page_1782210888495_54iz8",
+        "route": "/team",
+        "title": "Our Team",
+        "navLabel": "Team",
+        "sections": [
+          {
+            "id": "sec_1782210888495_egnsz",
+            "componentId": "navbar",
+            "slotHostId": "navbar",
+            "presetId": "navbar_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Navbar",
+            "role": "header",
+            "label": "Navigation",
+            "sectionFile": "sections/sec_1782210888495_egnsz.json",
+            "pageNode": {
+              "id": "sec_1782210888495_egnsz",
+              "component": "navbar",
+              "category": "navigation",
+              "variant": "glass",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "DENTAL CARE"
+                },
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/",
+                    "icon": "Home"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services",
+                    "icon": "LayoutGrid"
+                  },
+                  {
+                    "label": "Our Team",
+                    "href": "/team",
+                    "icon": "Info"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact",
+                    "icon": "Contact"
+                  }
+                ],
+                "cta": {
+                  "label": "Contact",
+                  "href": "/contact"
+                },
+                "settings": {
+                  "showSearch": false,
+                  "sticky": true,
+                  "showItemIcons": false,
+                  "showCartIcon": false,
+                  "navbarLayout": "classicBar"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "glass",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "DENTAL CARE"
+              },
+              "items": [
+                {
+                  "id": "nav_page_1782210887956_i050a",
+                  "label": "Home",
+                  "href": "/",
+                  "icon": "Home"
+                },
+                {
+                  "id": "nav_page_1782210888225_ng7pa",
+                  "label": "Services",
+                  "href": "/services",
+                  "icon": "LayoutGrid"
+                },
+                {
+                  "id": "nav_page_1782210888495_54iz8",
+                  "label": "Our Team",
+                  "href": "/team",
+                  "icon": "Info"
+                },
+                {
+                  "id": "nav_page_1782210888766_vokuj",
+                  "label": "Contact",
+                  "href": "/contact",
+                  "icon": "Contact"
+                }
+              ],
+              "cta": {
+                "label": "Contact",
+                "href": "/contact"
+              },
+              "settings": {
+                "showSearch": false,
+                "sticky": true,
+                "showItemIcons": false,
+                "showCartIcon": false,
+                "navbarLayout": "classicBar"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888495_7ozha",
+            "componentId": "heroSection",
+            "slotHostId": "heroSection",
+            "presetId": "hero_section_general_dental_clinic_light",
+            "presetSource": "seed",
+            "presetName": "Dental clinic · Family Care Hero · Light",
+            "role": "simpleHero",
+            "label": "Our Team",
+            "sectionFile": "sections/sec_1782210888495_7ozha.json",
+            "pageNode": {
+              "id": "sec_1782210888495_7ozha",
+              "component": "heroSection",
+              "category": "content",
+              "variant": "centeredStack",
+              "content": {
+                "settings": {
+                  "backgroundTheme": "dental_clinic",
+                  "motionPreset": "fadeUp",
+                  "glassEffects": true,
+                  "glossySurfaces": false,
+                  "glowAccents": false
+                },
+                "children": [
+                  {
+                    "id": "eyebrow_1",
+                    "slot": "eyebrow",
+                    "componentId": "label",
+                    "componentVariant": "eyebrow",
+                    "content": {
+                      "children": "Medical",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "heading_1",
+                    "slot": "heading",
+                    "componentId": "heading",
+                    "componentVariant": "default",
+                    "content": {
+                      "children": "Our team",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "subtitle_1",
+                    "slot": "subtitle",
+                    "componentId": "text",
+                    "componentVariant": "lead",
+                    "content": {
+                      "children": "Learn about Medical — our story, values, and the team behind the experience.",
+                      "placement": "inline"
+                    }
+                  }
+                ]
+              }
+            },
+            "builderState": {
+              "presentationVariant": "centeredStack",
+              "settings": {
+                "backgroundTheme": "dental_clinic",
+                "motionPreset": "fadeUp",
+                "glassEffects": true,
+                "glossySurfaces": false,
+                "glowAccents": false
+              },
+              "children": [
+                {
+                  "id": "eyebrow_1",
+                  "slot": "eyebrow",
+                  "componentId": "label",
+                  "category": "typography",
+                  "componentVariant": "eyebrow",
+                  "content": {
+                    "children": "Medical",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "heading_1",
+                  "slot": "heading",
+                  "componentId": "heading",
+                  "category": "typography",
+                  "componentVariant": "default",
+                  "content": {
+                    "children": "Our team",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "subtitle_1",
+                  "slot": "subtitle",
+                  "componentId": "text",
+                  "category": "typography",
+                  "componentVariant": "lead",
+                  "content": {
+                    "children": "Learn about Medical — our story, values, and the team behind the experience.",
+                    "placement": "inline"
+                  }
+                }
+              ],
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888495_oyjm1",
+            "componentId": "aboutSection",
+            "slotHostId": "aboutSection",
+            "presetId": "about_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic About",
+            "role": "stats",
+            "label": "Our team",
+            "sectionFile": "sections/sec_1782210888495_oyjm1.json",
+            "pageNode": {
+              "id": "sec_1782210888495_oyjm1",
+              "component": "aboutSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "About",
+                  "title": "Our team",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "story": {
+                  "paragraphs": [
+                    "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+                    "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+                  ],
+                  "imageSrc": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1600&h=900&fit=crop&q=80&auto=format"
+                },
+                "stats": [
+                  {
+                    "value": "10+",
+                    "label": "Years serving clients"
+                  },
+                  {
+                    "value": "500+",
+                    "label": "Projects delivered"
+                  },
+                  {
+                    "value": "4.9",
+                    "label": "Client satisfaction"
+                  }
+                ],
+                "values": [
+                  {
+                    "title": "Clarity",
+                    "description": "Plain-language guidance and transparent pricing."
+                  },
+                  {
+                    "title": "Expertise",
+                    "description": "Specialists who stay current with industry best practices."
+                  },
+                  {
+                    "title": "Partnership",
+                    "description": "We measure success by your outcomes, not just deliverables."
+                  }
+                ],
+                "team": [],
+                "milestones": [
+                  {
+                    "date": "2018",
+                    "title": "Doors open",
+                    "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+                  },
+                  {
+                    "date": "2021",
+                    "title": "Neighborhood staple",
+                    "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+                  },
+                  {
+                    "date": "2024",
+                    "title": "Next chapter",
+                    "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+                  }
+                ],
+                "settings": {
+                  "layout": "split",
+                  "showStats": true,
+                  "showValues": true,
+                  "showTeam": false,
+                  "statColumns": 3,
+                  "teamColumns": 3,
+                  "backgroundTheme": "studio_clean"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "About",
+                "title": "Our team",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "story": {
+                "paragraphs": [
+                  "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+                  "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+                ],
+                "imageSrc": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=1600&h=900&fit=crop&q=80&auto=format"
+              },
+              "stats": [
+                {
+                  "id": "pro_stat_1",
+                  "value": "10+",
+                  "label": "Years serving clients"
+                },
+                {
+                  "id": "pro_stat_2",
+                  "value": "500+",
+                  "label": "Projects delivered"
+                },
+                {
+                  "id": "pro_stat_3",
+                  "value": "4.9",
+                  "label": "Client satisfaction"
+                }
+              ],
+              "values": [
+                {
+                  "id": "pro_val_1",
+                  "title": "Clarity",
+                  "description": "Plain-language guidance and transparent pricing."
+                },
+                {
+                  "id": "pro_val_2",
+                  "title": "Expertise",
+                  "description": "Specialists who stay current with industry best practices."
+                },
+                {
+                  "id": "pro_val_3",
+                  "title": "Partnership",
+                  "description": "We measure success by your outcomes, not just deliverables."
+                }
+              ],
+              "team": [],
+              "milestones": [
+                {
+                  "id": "milestone_1",
+                  "date": "2018",
+                  "title": "Doors open",
+                  "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+                },
+                {
+                  "id": "milestone_2",
+                  "date": "2021",
+                  "title": "Neighborhood staple",
+                  "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+                },
+                {
+                  "id": "milestone_3",
+                  "date": "2024",
+                  "title": "Next chapter",
+                  "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+                }
+              ],
+              "settings": {
+                "layout": "split",
+                "showStats": true,
+                "showValues": true,
+                "showTeam": false,
+                "statColumns": 3,
+                "teamColumns": 3,
+                "backgroundTheme": "studio_clean"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888495_cgk8i",
+            "componentId": "aboutSection",
+            "slotHostId": "aboutSection",
+            "presetId": "about_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic About",
+            "role": "stats",
+            "label": "By the numbers",
+            "sectionFile": "sections/sec_1782210888495_cgk8i.json",
+            "pageNode": {
+              "id": "sec_1782210888495_cgk8i",
+              "component": "aboutSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "About",
+                  "title": "By the numbers",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "story": {
+                  "paragraphs": [
+                    "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+                    "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+                  ]
+                },
+                "stats": [
+                  {
+                    "value": "10+",
+                    "label": "Years serving clients"
+                  },
+                  {
+                    "value": "500+",
+                    "label": "Projects delivered"
+                  },
+                  {
+                    "value": "4.9",
+                    "label": "Client satisfaction"
+                  }
+                ],
+                "values": [
+                  {
+                    "title": "Clarity",
+                    "description": "Plain-language guidance and transparent pricing."
+                  },
+                  {
+                    "title": "Expertise",
+                    "description": "Specialists who stay current with industry best practices."
+                  },
+                  {
+                    "title": "Partnership",
+                    "description": "We measure success by your outcomes, not just deliverables."
+                  }
+                ],
+                "team": [],
+                "milestones": [
+                  {
+                    "date": "2018",
+                    "title": "Doors open",
+                    "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+                  },
+                  {
+                    "date": "2021",
+                    "title": "Neighborhood staple",
+                    "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+                  },
+                  {
+                    "date": "2024",
+                    "title": "Next chapter",
+                    "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+                  }
+                ],
+                "settings": {
+                  "layout": "split",
+                  "showStats": true,
+                  "showValues": true,
+                  "showTeam": false,
+                  "statColumns": 3,
+                  "teamColumns": 3,
+                  "backgroundTheme": "studio_clean"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "About",
+                "title": "By the numbers",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "story": {
+                "paragraphs": [
+                  "Medical was built to deliver dental clinic experiences with clarity and professionalism.",
+                  "From first consultation to ongoing support, our team focuses on communication, accountability, and results."
+                ]
+              },
+              "stats": [
+                {
+                  "id": "pro_stat_1",
+                  "value": "10+",
+                  "label": "Years serving clients"
+                },
+                {
+                  "id": "pro_stat_2",
+                  "value": "500+",
+                  "label": "Projects delivered"
+                },
+                {
+                  "id": "pro_stat_3",
+                  "value": "4.9",
+                  "label": "Client satisfaction"
+                }
+              ],
+              "values": [
+                {
+                  "id": "pro_val_1",
+                  "title": "Clarity",
+                  "description": "Plain-language guidance and transparent pricing."
+                },
+                {
+                  "id": "pro_val_2",
+                  "title": "Expertise",
+                  "description": "Specialists who stay current with industry best practices."
+                },
+                {
+                  "id": "pro_val_3",
+                  "title": "Partnership",
+                  "description": "We measure success by your outcomes, not just deliverables."
+                }
+              ],
+              "team": [],
+              "milestones": [
+                {
+                  "id": "milestone_1",
+                  "date": "2018",
+                  "title": "Doors open",
+                  "description": "We welcomed our first guests with a short menu focused on seasonal ingredients and wood-fired technique."
+                },
+                {
+                  "id": "milestone_2",
+                  "date": "2021",
+                  "title": "Neighborhood staple",
+                  "description": "Expanded hours, launched catering, and deepened partnerships with local farms and purveyors."
+                },
+                {
+                  "id": "milestone_3",
+                  "date": "2024",
+                  "title": "Next chapter",
+                  "description": "Refreshed the dining room, added a chef's counter, and doubled down on community events and private dining."
+                }
+              ],
+              "settings": {
+                "layout": "split",
+                "showStats": true,
+                "showValues": true,
+                "showTeam": false,
+                "statColumns": 3,
+                "teamColumns": 3,
+                "backgroundTheme": "studio_clean"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888496_oq0ud",
+            "componentId": "pageFooter",
+            "slotHostId": "pageFooter",
+            "presetId": "footer_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Footer",
+            "role": "footer",
+            "label": "Footer",
+            "sectionFile": "sections/sec_1782210888496_oq0ud.json",
+            "pageNode": {
+              "id": "sec_1782210888496_oq0ud",
+              "component": "pageFooter",
+              "category": "appShell",
+              "variant": "boxed",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+                },
+                "columns": [
+                  {
+                    "title": "Services",
+                    "links": [
+                      {
+                        "label": "Home",
+                        "href": "/",
+                        "icon": "Home"
+                      },
+                      {
+                        "label": "Our Team",
+                        "href": "/team",
+                        "icon": "Info"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Patients",
+                    "links": [
+                      {
+                        "label": "Services",
+                        "href": "/services",
+                        "icon": "LayoutGrid"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Contact",
+                    "links": [
+                      {
+                        "label": "Contact",
+                        "href": "/contact",
+                        "icon": "Contact"
+                      }
+                    ]
+                  }
+                ],
+                "legal": {
+                  "copyright": "© 2026 BrightSmile. All rights reserved.",
+                  "secondaryText": "Accepting new patients · Most insurance accepted",
+                  "utilityLinks": []
+                },
+                "settings": {
+                  "showStatus": false,
+                  "showLinkIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "footerLayout": "splitBrand"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "boxed",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+              },
+              "columns": [
+                {
+                  "id": "col_1",
+                  "title": "Services",
+                  "links": [
+                    {
+                      "id": "link_1_1",
+                      "label": "Home",
+                      "href": "/",
+                      "icon": "Home"
+                    },
+                    {
+                      "id": "nav_page_1782210888495_54iz8",
+                      "label": "Our Team",
+                      "href": "/team",
+                      "icon": "Info"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_2",
+                  "title": "Patients",
+                  "links": [
+                    {
+                      "id": "link_2_1",
+                      "label": "Services",
+                      "href": "/services",
+                      "icon": "LayoutGrid"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_3",
+                  "title": "Contact",
+                  "links": [
+                    {
+                      "id": "link_3_1",
+                      "label": "Contact",
+                      "href": "/contact",
+                      "icon": "Contact"
+                    }
+                  ]
+                }
+              ],
+              "legal": {
+                "copyright": "© 2026 BrightSmile. All rights reserved.",
+                "secondaryText": "Accepting new patients · Most insurance accepted",
+                "utilityLinks": []
+              },
+              "settings": {
+                "showStatus": false,
+                "showLinkIcons": true,
+                "backgroundTheme": "studio_clean",
+                "footerLayout": "splitBrand"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "page_1782210888766_vokuj",
+        "route": "/contact",
+        "title": "Contact",
+        "navLabel": "Contact",
+        "sections": [
+          {
+            "id": "sec_1782210888766_lsijt",
+            "componentId": "navbar",
+            "slotHostId": "navbar",
+            "presetId": "navbar_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Navbar",
+            "role": "header",
+            "label": "Navigation",
+            "sectionFile": "sections/sec_1782210888766_lsijt.json",
+            "pageNode": {
+              "id": "sec_1782210888766_lsijt",
+              "component": "navbar",
+              "category": "navigation",
+              "variant": "glass",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "DENTAL CARE"
+                },
+                "items": [
+                  {
+                    "label": "Home",
+                    "href": "/",
+                    "icon": "Home"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "/services",
+                    "icon": "LayoutGrid"
+                  },
+                  {
+                    "label": "Our Team",
+                    "href": "/team",
+                    "icon": "Info"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "/contact",
+                    "icon": "Contact"
+                  }
+                ],
+                "cta": {
+                  "label": "Contact",
+                  "href": "/contact"
+                },
+                "settings": {
+                  "showSearch": false,
+                  "sticky": true,
+                  "showItemIcons": false,
+                  "showCartIcon": false,
+                  "navbarLayout": "classicBar"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "glass",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "DENTAL CARE"
+              },
+              "items": [
+                {
+                  "id": "nav_page_1782210887956_i050a",
+                  "label": "Home",
+                  "href": "/",
+                  "icon": "Home"
+                },
+                {
+                  "id": "nav_page_1782210888225_ng7pa",
+                  "label": "Services",
+                  "href": "/services",
+                  "icon": "LayoutGrid"
+                },
+                {
+                  "id": "nav_page_1782210888495_54iz8",
+                  "label": "Our Team",
+                  "href": "/team",
+                  "icon": "Info"
+                },
+                {
+                  "id": "nav_page_1782210888766_vokuj",
+                  "label": "Contact",
+                  "href": "/contact",
+                  "icon": "Contact"
+                }
+              ],
+              "cta": {
+                "label": "Contact",
+                "href": "/contact"
+              },
+              "settings": {
+                "showSearch": false,
+                "sticky": true,
+                "showItemIcons": false,
+                "showCartIcon": false,
+                "navbarLayout": "classicBar"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888766_bdt2i",
+            "componentId": "heroSection",
+            "slotHostId": "heroSection",
+            "presetId": "hero_section_general_dental_clinic_light",
+            "presetSource": "seed",
+            "presetName": "Dental clinic · Family Care Hero · Light",
+            "role": "simpleHero",
+            "label": "Contact",
+            "sectionFile": "sections/sec_1782210888766_bdt2i.json",
+            "pageNode": {
+              "id": "sec_1782210888766_bdt2i",
+              "component": "heroSection",
+              "category": "content",
+              "variant": "centeredStack",
+              "content": {
+                "settings": {
+                  "backgroundTheme": "dental_clinic",
+                  "motionPreset": "fadeUp",
+                  "glassEffects": true,
+                  "glossySurfaces": false,
+                  "glowAccents": false
+                },
+                "children": [
+                  {
+                    "id": "eyebrow_1",
+                    "slot": "eyebrow",
+                    "componentId": "label",
+                    "componentVariant": "eyebrow",
+                    "content": {
+                      "children": "Medical",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "heading_1",
+                    "slot": "heading",
+                    "componentId": "heading",
+                    "componentVariant": "default",
+                    "content": {
+                      "children": "Contact",
+                      "placement": "inline"
+                    }
+                  },
+                  {
+                    "id": "subtitle_1",
+                    "slot": "subtitle",
+                    "componentId": "text",
+                    "componentVariant": "lead",
+                    "content": {
+                      "children": "Get in touch — our team is ready to help with your questions.",
+                      "placement": "inline"
+                    }
+                  }
+                ]
+              }
+            },
+            "builderState": {
+              "presentationVariant": "centeredStack",
+              "settings": {
+                "backgroundTheme": "dental_clinic",
+                "motionPreset": "fadeUp",
+                "glassEffects": true,
+                "glossySurfaces": false,
+                "glowAccents": false
+              },
+              "children": [
+                {
+                  "id": "eyebrow_1",
+                  "slot": "eyebrow",
+                  "componentId": "label",
+                  "category": "typography",
+                  "componentVariant": "eyebrow",
+                  "content": {
+                    "children": "Medical",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "heading_1",
+                  "slot": "heading",
+                  "componentId": "heading",
+                  "category": "typography",
+                  "componentVariant": "default",
+                  "content": {
+                    "children": "Contact",
+                    "placement": "inline"
+                  }
+                },
+                {
+                  "id": "subtitle_1",
+                  "slot": "subtitle",
+                  "componentId": "text",
+                  "category": "typography",
+                  "componentVariant": "lead",
+                  "content": {
+                    "children": "Get in touch — our team is ready to help with your questions.",
+                    "placement": "inline"
+                  }
+                }
+              ],
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888766_03j9o",
+            "componentId": "contactSection",
+            "slotHostId": "contactSection",
+            "presetId": "contact_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Contact",
+            "role": "contact",
+            "label": "Contact us",
+            "sectionFile": "sections/sec_1782210888766_03j9o.json",
+            "pageNode": {
+              "id": "sec_1782210888766_03j9o",
+              "component": "contactSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "Contact",
+                  "title": "Refill or ask a pharmacist",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "items": [
+                  {
+                    "label": "Email",
+                    "value": "hello@medical.com",
+                    "icon": "mail",
+                    "href": "mailto:hello@example.com"
+                  },
+                  {
+                    "label": "Phone",
+                    "value": "(555) 010-2400",
+                    "icon": "phone",
+                    "href": "tel:+15550102400"
+                  },
+                  {
+                    "label": "Hours",
+                    "value": "Mon–Fri · 9am–6pm",
+                    "icon": "clock"
+                  }
+                ],
+                "settings": {
+                  "layout": "splitShowcase",
+                  "showIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "cardSize": "default",
+                  "columns": 2,
+                  "headerScale": "default"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "Contact",
+                "title": "Refill or ask a pharmacist",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "items": [
+                {
+                  "id": "pro_email",
+                  "label": "Email",
+                  "value": "hello@medical.com",
+                  "href": "mailto:hello@example.com",
+                  "icon": "mail"
+                },
+                {
+                  "id": "pro_phone",
+                  "label": "Phone",
+                  "value": "(555) 010-2400",
+                  "href": "tel:+15550102400",
+                  "icon": "phone"
+                },
+                {
+                  "id": "pro_hours",
+                  "label": "Hours",
+                  "value": "Mon–Fri · 9am–6pm",
+                  "icon": "clock"
+                }
+              ],
+              "settings": {
+                "layout": "splitShowcase",
+                "showIcons": true,
+                "backgroundTheme": "studio_clean",
+                "cardSize": "default",
+                "columns": 2,
+                "headerScale": "default"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888766_esfw5",
+            "componentId": "contactSection",
+            "slotHostId": "contactSection",
+            "presetId": "contact_general_dental_clinic_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Contact",
+            "role": "contact",
+            "label": "Book now",
+            "sectionFile": "sections/sec_1782210888766_esfw5.json",
+            "pageNode": {
+              "id": "sec_1782210888766_esfw5",
+              "component": "contactSection",
+              "category": "content",
+              "variant": "default",
+              "content": {
+                "header": {
+                  "eyebrow": "Contact",
+                  "title": "Refill or ask a pharmacist",
+                  "subtitle": "Fast refills · Pharmacist advice"
+                },
+                "items": [
+                  {
+                    "label": "Email",
+                    "value": "hello@medical.com",
+                    "icon": "mail",
+                    "href": "mailto:hello@example.com"
+                  },
+                  {
+                    "label": "Phone",
+                    "value": "(555) 010-2400",
+                    "icon": "phone",
+                    "href": "tel:+15550102400"
+                  },
+                  {
+                    "label": "Hours",
+                    "value": "Mon–Fri · 9am–6pm",
+                    "icon": "clock"
+                  }
+                ],
+                "settings": {
+                  "layout": "splitShowcase",
+                  "showIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "cardSize": "default",
+                  "columns": 2,
+                  "headerScale": "default"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "default",
+              "header": {
+                "eyebrow": "Contact",
+                "title": "Refill or ask a pharmacist",
+                "subtitle": "Fast refills · Pharmacist advice"
+              },
+              "items": [
+                {
+                  "id": "pro_email",
+                  "label": "Email",
+                  "value": "hello@medical.com",
+                  "href": "mailto:hello@example.com",
+                  "icon": "mail"
+                },
+                {
+                  "id": "pro_phone",
+                  "label": "Phone",
+                  "value": "(555) 010-2400",
+                  "href": "tel:+15550102400",
+                  "icon": "phone"
+                },
+                {
+                  "id": "pro_hours",
+                  "label": "Hours",
+                  "value": "Mon–Fri · 9am–6pm",
+                  "icon": "clock"
+                }
+              ],
+              "settings": {
+                "layout": "splitShowcase",
+                "showIcons": true,
+                "backgroundTheme": "studio_clean",
+                "cardSize": "default",
+                "columns": 2,
+                "headerScale": "default"
+              },
+              "selection": {
+                "level": "section"
+              }
+            }
+          },
+          {
+            "id": "sec_1782210888766_p7ncv",
+            "componentId": "pageFooter",
+            "slotHostId": "pageFooter",
+            "presetId": "footer_general_brightsmile_dental_clinic",
+            "presetSource": "seed",
+            "presetName": "Dental clinic Footer",
+            "role": "footer",
+            "label": "Footer",
+            "sectionFile": "sections/sec_1782210888766_p7ncv.json",
+            "pageNode": {
+              "id": "sec_1782210888766_p7ncv",
+              "component": "pageFooter",
+              "category": "appShell",
+              "variant": "boxed",
+              "content": {
+                "brand": {
+                  "label": "Medical",
+                  "logoLetter": "M",
+                  "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                  "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+                },
+                "columns": [
+                  {
+                    "title": "Services",
+                    "links": [
+                      {
+                        "label": "Home",
+                        "href": "/",
+                        "icon": "Home"
+                      },
+                      {
+                        "label": "Our Team",
+                        "href": "/team",
+                        "icon": "Info"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Patients",
+                    "links": [
+                      {
+                        "label": "Services",
+                        "href": "/services",
+                        "icon": "LayoutGrid"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Contact",
+                    "links": [
+                      {
+                        "label": "Contact",
+                        "href": "/contact",
+                        "icon": "Contact"
+                      }
+                    ]
+                  }
+                ],
+                "legal": {
+                  "copyright": "© 2026 BrightSmile. All rights reserved.",
+                  "secondaryText": "Accepting new patients · Most insurance accepted",
+                  "utilityLinks": []
+                },
+                "settings": {
+                  "showStatus": false,
+                  "showLinkIcons": true,
+                  "backgroundTheme": "studio_clean",
+                  "footerLayout": "splitBrand"
+                }
+              }
+            },
+            "builderState": {
+              "presentationVariant": "boxed",
+              "brand": {
+                "label": "Medical",
+                "logoLetter": "M",
+                "logoUrl": "/images/brands/brightsmile-tooth-logo.svg",
+                "tagline": "Gentle care, advanced dentistry — your smile is our priority."
+              },
+              "columns": [
+                {
+                  "id": "col_1",
+                  "title": "Services",
+                  "links": [
+                    {
+                      "id": "link_1_1",
+                      "label": "Home",
+                      "href": "/",
+                      "icon": "Home"
+                    },
+                    {
+                      "id": "nav_page_1782210888495_54iz8",
+                      "label": "Our Team",
+                      "href": "/team",
+                      "icon": "Info"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_2",
+                  "title": "Patients",
+                  "links": [
+                    {
+                      "id": "link_2_1",
+                      "label": "Services",
+                      "href": "/services",
+                      "icon": "LayoutGrid"
+                    }
+                  ]
+                },
+                {
+                  "id": "col_3",
+                  "title": "Contact",
+                  "links": [
+                    {
+                      "id": "link_3_1",
+                      "label": "Contact",
+                      "href": "/contact",
+                      "icon": "Contact"
+                    }
+                  ]
+                }
+              ],
+              "legal": {
+                "copyright": "© 2026 BrightSmile. All rights reserved.",
+                "secondaryText": "Accepting new patients · Most insurance accepted",
+                "utilityLinks": []
+              },
+              "settings": {
+                "showStatus": false,
+                "showLinkIcons": true,
+                "backgroundTheme": "studio_clean",
+                "footerLayout": "splitBrand"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "manifest": {
+      "version": 1,
+      "siteSlug": "medical-vrh6blsu",
+      "siteTitle": "Medical",
+      "updatedAt": "2026-06-23T10:36:34.435Z",
+      "pages": [
+        {
+          "id": "page_1782210887956_i050a",
+          "route": "/",
+          "title": "Home",
+          "navLabel": "Home",
+          "sectionIds": [
+            "sec_1782210887956_ahreh",
+            "sec_1782210887956_uuswv",
+            "sec_1782210887956_1nuws",
+            "sec_1782210887956_h5csd",
+            "sec_1782210887956_usv57",
+            "sec_1782210887956_3dmou",
+            "sec_1782210887956_59nj0",
+            "sec_1782210887956_esiva"
+          ]
+        },
+        {
+          "id": "page_1782210888225_ng7pa",
+          "route": "/services",
+          "title": "Services",
+          "navLabel": "Services",
+          "sectionIds": [
+            "sec_1782210888225_1t9mq",
+            "sec_1782210888225_7th4g",
+            "sec_1782210888225_mf5ir",
+            "sec_1782210888225_gm77e",
+            "sec_1782210888225_dgcxe"
+          ]
+        },
+        {
+          "id": "page_1782210888495_54iz8",
+          "route": "/team",
+          "title": "Our Team",
+          "navLabel": "Team",
+          "sectionIds": [
+            "sec_1782210888495_egnsz",
+            "sec_1782210888495_7ozha",
+            "sec_1782210888495_oyjm1",
+            "sec_1782210888495_cgk8i",
+            "sec_1782210888496_oq0ud"
+          ]
+        },
+        {
+          "id": "page_1782210888766_vokuj",
+          "route": "/contact",
+          "title": "Contact",
+          "navLabel": "Contact",
+          "sectionIds": [
+            "sec_1782210888766_lsijt",
+            "sec_1782210888766_bdt2i",
+            "sec_1782210888766_03j9o",
+            "sec_1782210888766_esfw5",
+            "sec_1782210888766_p7ncv"
+          ]
+        }
+      ],
+      "sectionIndex": {
+        "sec_1782210887956_ahreh": {
+          "sectionFile": "sections/sec_1782210887956_ahreh.json",
+          "componentId": "navbar",
+          "presetId": "navbar_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210887956_uuswv": {
+          "sectionFile": "sections/sec_1782210887956_uuswv.json",
+          "componentId": "heroSection",
+          "presetId": "hero_section_general_dental_clinic_light"
+        },
+        "sec_1782210887956_1nuws": {
+          "sectionFile": "sections/sec_1782210887956_1nuws.json",
+          "componentId": "testimonialSection",
+          "presetId": "testimonial_general_classic_grid_dental_clinic"
+        },
+        "sec_1782210887956_h5csd": {
+          "sectionFile": "sections/sec_1782210887956_h5csd.json",
+          "componentId": "servicesSection",
+          "presetId": "services_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210887956_usv57": {
+          "sectionFile": "sections/sec_1782210887956_usv57.json",
+          "componentId": "listingsSection",
+          "presetId": "listings_layout_splitMap_general_dental_clinic"
+        },
+        "sec_1782210887956_3dmou": {
+          "sectionFile": "sections/sec_1782210887956_3dmou.json",
+          "componentId": "aboutSection",
+          "presetId": "about_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210887956_59nj0": {
+          "sectionFile": "sections/sec_1782210887956_59nj0.json",
+          "componentId": "contactSection",
+          "presetId": "contact_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210887956_esiva": {
+          "sectionFile": "sections/sec_1782210887956_esiva.json",
+          "componentId": "pageFooter",
+          "presetId": "footer_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210888225_1t9mq": {
+          "sectionFile": "sections/sec_1782210888225_1t9mq.json",
+          "componentId": "navbar",
+          "presetId": "navbar_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210888225_7th4g": {
+          "sectionFile": "sections/sec_1782210888225_7th4g.json",
+          "componentId": "heroSection",
+          "presetId": "hero_section_general_dental_clinic_light"
+        },
+        "sec_1782210888225_mf5ir": {
+          "sectionFile": "sections/sec_1782210888225_mf5ir.json",
+          "componentId": "servicesSection",
+          "presetId": "services_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210888225_gm77e": {
+          "sectionFile": "sections/sec_1782210888225_gm77e.json",
+          "componentId": "faqSection",
+          "presetId": "faq_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210888225_dgcxe": {
+          "sectionFile": "sections/sec_1782210888225_dgcxe.json",
+          "componentId": "pageFooter",
+          "presetId": "footer_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210888495_egnsz": {
+          "sectionFile": "sections/sec_1782210888495_egnsz.json",
+          "componentId": "navbar",
+          "presetId": "navbar_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210888495_7ozha": {
+          "sectionFile": "sections/sec_1782210888495_7ozha.json",
+          "componentId": "heroSection",
+          "presetId": "hero_section_general_dental_clinic_light"
+        },
+        "sec_1782210888495_oyjm1": {
+          "sectionFile": "sections/sec_1782210888495_oyjm1.json",
+          "componentId": "aboutSection",
+          "presetId": "about_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210888495_cgk8i": {
+          "sectionFile": "sections/sec_1782210888495_cgk8i.json",
+          "componentId": "aboutSection",
+          "presetId": "about_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210888496_oq0ud": {
+          "sectionFile": "sections/sec_1782210888496_oq0ud.json",
+          "componentId": "pageFooter",
+          "presetId": "footer_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210888766_lsijt": {
+          "sectionFile": "sections/sec_1782210888766_lsijt.json",
+          "componentId": "navbar",
+          "presetId": "navbar_general_brightsmile_dental_clinic"
+        },
+        "sec_1782210888766_bdt2i": {
+          "sectionFile": "sections/sec_1782210888766_bdt2i.json",
+          "componentId": "heroSection",
+          "presetId": "hero_section_general_dental_clinic_light"
+        },
+        "sec_1782210888766_03j9o": {
+          "sectionFile": "sections/sec_1782210888766_03j9o.json",
+          "componentId": "contactSection",
+          "presetId": "contact_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210888766_esfw5": {
+          "sectionFile": "sections/sec_1782210888766_esfw5.json",
+          "componentId": "contactSection",
+          "presetId": "contact_general_dental_clinic_dental_clinic"
+        },
+        "sec_1782210888766_p7ncv": {
+          "sectionFile": "sections/sec_1782210888766_p7ncv.json",
+          "componentId": "pageFooter",
+          "presetId": "footer_general_brightsmile_dental_clinic"
+        }
+      }
+    },
+    "createdAt": "2026-06-23T10:34:47.511Z",
+    "updatedAt": "2026-06-23T10:36:34.435Z"
+  }
+}

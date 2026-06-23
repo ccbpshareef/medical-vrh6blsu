@@ -1,0 +1,87 @@
+{
+  "id": "page_1782210887956_i050a",
+  "route": "/",
+  "title": "Home",
+  "sections": [
+    {
+      "id": "sec_1782210887956_ahreh",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Navbar",
+      "role": "header",
+      "label": "Navigation",
+      "sectionFile": "sections/sec_1782210887956_ahreh.json"
+    },
+    {
+      "id": "sec_1782210887956_uuswv",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light",
+      "presetSource": "seed",
+      "presetName": "Dental clinic · Family Care Hero · Light",
+      "role": "hero",
+      "label": "Your neighborhood health partner",
+      "sectionFile": "sections/sec_1782210887956_uuswv.json"
+    },
+    {
+      "id": "sec_1782210887956_1nuws",
+      "componentId": "testimonialSection",
+      "presetId": "testimonial_general_classic_grid_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic · Classic grid",
+      "role": "testimonials",
+      "label": "What people say",
+      "sectionFile": "sections/sec_1782210887956_1nuws.json"
+    },
+    {
+      "id": "sec_1782210887956_h5csd",
+      "componentId": "servicesSection",
+      "presetId": "services_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Services",
+      "role": "services",
+      "label": "Our services",
+      "sectionFile": "sections/sec_1782210887956_h5csd.json"
+    },
+    {
+      "id": "sec_1782210887956_usv57",
+      "componentId": "listingsSection",
+      "presetId": "listings_layout_splitMap_general_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic · Split map Listings",
+      "role": "cards",
+      "label": "Health essentials",
+      "sectionFile": "sections/sec_1782210887956_usv57.json"
+    },
+    {
+      "id": "sec_1782210887956_3dmou",
+      "componentId": "aboutSection",
+      "presetId": "about_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic About",
+      "role": "stats",
+      "label": "By the numbers",
+      "sectionFile": "sections/sec_1782210887956_3dmou.json"
+    },
+    {
+      "id": "sec_1782210887956_59nj0",
+      "componentId": "contactSection",
+      "presetId": "contact_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Contact",
+      "role": "contact",
+      "label": "Book now",
+      "sectionFile": "sections/sec_1782210887956_59nj0.json"
+    },
+    {
+      "id": "sec_1782210887956_esiva",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Footer",
+      "role": "footer",
+      "label": "Footer",
+      "sectionFile": "sections/sec_1782210887956_esiva.json"
+    }
+  ]
+}

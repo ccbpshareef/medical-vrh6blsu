@@ -1,0 +1,8 @@
+{
+  "category": "general",
+  "industryId": "dental_clinic",
+  "businessName": "Medical",
+  "sourcePrompt": "build the website like medical store application",
+  "categoryId": "pharmacy",
+  "templateVariant": "clinical"
+}

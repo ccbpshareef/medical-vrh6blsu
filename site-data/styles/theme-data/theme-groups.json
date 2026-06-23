@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Curated theme families for the theme picker UI",
+  "groups": [
+    {
+      "id": "blues",
+      "label": "Blues & Cyans",
+      "description": "Cool, trustworthy, product-led",
+      "ids": [
+        "indigo",
+        "blue",
+        "iris",
+        "navy",
+        "ocean",
+        "sky",
+        "cyan",
+        "aqua",
+        "turquoise",
+        "midnight"
+      ]
+    },
+    {
+      "id": "purples",
+      "label": "Purples & Violets",
+      "description": "Creative, premium, expressive",
+      "ids": ["violet", "purple", "plum", "lavender", "lilac", "grape", "fuchsia"]
+    },
+    {
+      "id": "pinks",
+      "label": "Pinks & Reds",
+      "description": "Bold, emotional, high energy",
+      "ids": [
+        "pink",
+        "ruby",
+        "rose",
+        "crimson",
+        "red",
+        "magenta",
+        "coral",
+        "wine"
+      ]
+    },
+    {
+      "id": "warm",
+      "label": "Warm & Earth",
+      "description": "Friendly, organic, inviting",
+      "ids": [
+        "orange",
+        "sunset",
+        "amber",
+        "gold",
+        "yellow",
+        "peach",
+        "bronze",
+        "copper",
+        "brown",
+        "sand"
+      ]
+    },
+    {
+      "id": "greens",
+      "label": "Greens & Teals",
+      "description": "Fresh, calm, natural",
+      "ids": [
+        "lime",
+        "green",
+        "emerald",
+        "jade",
+        "teal",
+        "mint",
+        "forest",
+        "sage",
+        "olive"
+      ]
+    },
+    {
+      "id": "neutrals",
+      "label": "Neutrals",
+      "description": "Minimal, editorial, timeless",
+      "ids": ["slate", "zinc", "stone", "gray", "charcoal"]
+    }
+  ]
+}

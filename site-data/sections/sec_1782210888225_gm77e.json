@@ -1,0 +1,87 @@
+{
+  "id": "sec_1782210888225_gm77e",
+  "componentId": "faqSection",
+  "slotHostId": "faqSection",
+  "presetId": "faq_general_dental_clinic_dental_clinic",
+  "presetSource": "seed",
+  "presetName": "Dental clinic FAQ",
+  "role": "faq",
+  "label": "Pharmacy FAQ",
+  "sectionFile": "sections/sec_1782210888225_gm77e.json",
+  "pageNode": {
+    "id": "sec_1782210888225_gm77e",
+    "component": "faqSection",
+    "category": "content",
+    "variant": "default",
+    "content": {
+      "header": {
+        "eyebrow": "FAQ",
+        "title": "Common questions",
+        "subtitle": "Quick answers about working with Medical."
+      },
+      "items": [
+        {
+          "question": "How do we get started?",
+          "answer": "Book a consultation — we'll scope goals, timeline, and next steps."
+        },
+        {
+          "question": "What industries do you serve?",
+          "answer": "We work with organizations of all sizes across our core practice areas."
+        },
+        {
+          "question": "Do you offer ongoing support?",
+          "answer": "Yes — retainers and success plans are available after initial delivery."
+        },
+        {
+          "question": "How is pricing structured?",
+          "answer": "Fixed-scope and monthly options with clear statements of work."
+        }
+      ],
+      "settings": {
+        "allowMultipleOpen": false,
+        "showSearch": true,
+        "showNumbers": true,
+        "faqLayout": "singleColumn"
+      }
+    }
+  },
+  "builderState": {
+    "presentationVariant": "default",
+    "header": {
+      "eyebrow": "FAQ",
+      "title": "Common questions",
+      "subtitle": "Quick answers about working with Medical."
+    },
+    "items": [
+      {
+        "id": "pro_faq_1",
+        "question": "How do we get started?",
+        "answer": "Book a consultation — we'll scope goals, timeline, and next steps."
+      },
+      {
+        "id": "pro_faq_2",
+        "question": "What industries do you serve?",
+        "answer": "We work with organizations of all sizes across our core practice areas."
+      },
+      {
+        "id": "pro_faq_3",
+        "question": "Do you offer ongoing support?",
+        "answer": "Yes — retainers and success plans are available after initial delivery."
+      },
+      {
+        "id": "pro_faq_4",
+        "question": "How is pricing structured?",
+        "answer": "Fixed-scope and monthly options with clear statements of work."
+      }
+    ],
+    "settings": {
+      "allowMultipleOpen": false,
+      "showSearch": true,
+      "showNumbers": true,
+      "faqLayout": "singleColumn"
+    },
+    "selection": {
+      "level": "section"
+    }
+  }
+}

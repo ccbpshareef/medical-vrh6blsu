@@ -1,0 +1,106 @@
+{
+  "id": "sec_1782210888495_7ozha",
+  "componentId": "heroSection",
+  "slotHostId": "heroSection",
+  "presetId": "hero_section_general_dental_clinic_light",
+  "presetSource": "seed",
+  "presetName": "Dental clinic · Family Care Hero · Light",
+  "role": "simpleHero",
+  "label": "Our Team",
+  "sectionFile": "sections/sec_1782210888495_7ozha.json",
+  "pageNode": {
+    "id": "sec_1782210888495_7ozha",
+    "component": "heroSection",
+    "category": "content",
+    "variant": "centeredStack",
+    "content": {
+      "settings": {
+        "backgroundTheme": "dental_clinic",
+        "motionPreset": "fadeUp",
+        "glassEffects": true,
+        "glossySurfaces": false,
+        "glowAccents": false
+      },
+      "children": [
+        {
+          "id": "eyebrow_1",
+          "slot": "eyebrow",
+          "componentId": "label",
+          "componentVariant": "eyebrow",
+          "content": {
+            "children": "Medical",
+            "placement": "inline"
+          }
+        },
+        {
+          "id": "heading_1",
+          "slot": "heading",
+          "componentId": "heading",
+          "componentVariant": "default",
+          "content": {
+            "children": "Our team",
+            "placement": "inline"
+          }
+        },
+        {
+          "id": "subtitle_1",
+          "slot": "subtitle",
+          "componentId": "text",
+          "componentVariant": "lead",
+          "content": {
+            "children": "Learn about Medical — our story, values, and the team behind the experience.",
+            "placement": "inline"
+          }
+        }
+      ]
+    }
+  },
+  "builderState": {
+    "presentationVariant": "centeredStack",
+    "settings": {
+      "backgroundTheme": "dental_clinic",
+      "motionPreset": "fadeUp",
+      "glassEffects": true,
+      "glossySurfaces": false,
+      "glowAccents": false
+    },
+    "children": [
+      {
+        "id": "eyebrow_1",
+        "slot": "eyebrow",
+        "componentId": "label",
+        "category": "typography",
+        "componentVariant": "eyebrow",
+        "content": {
+          "children": "Medical",
+          "placement": "inline"
+        }
+      },
+      {
+        "id": "heading_1",
+        "slot": "heading",
+        "componentId": "heading",
+        "category": "typography",
+        "componentVariant": "default",
+        "content": {
+          "children": "Our team",
+          "placement": "inline"
+        }
+      },
+      {
+        "id": "subtitle_1",
+        "slot": "subtitle",
+        "componentId": "text",
+        "category": "typography",
+        "componentVariant": "lead",
+        "content": {
+          "children": "Learn about Medical — our story, values, and the team behind the experience.",
+          "placement": "inline"
+        }
+      }
+    ],
+    "selection": {
+      "level": "section"
+    }
+  }
+}

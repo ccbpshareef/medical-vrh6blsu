@@ -1,0 +1,401 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Brand palette seeds — primary, accent, and optional gradient per theme",
+  "defaultThemeId": "indigo",
+  "themes": [
+    {
+      "id": "indigo",
+      "label": "Indigo",
+      "primary": "#6366f1",
+      "primaryOnLight": "#4f46e5",
+      "accent": "#22d3ee",
+      "accentOnLight": "#0891b2",
+      "gradient": "linear-gradient(135deg, #6366f1 0%, #22d3ee 100%)"
+    },
+    {
+      "id": "blue",
+      "label": "Blue",
+      "primary": "#3b82f6",
+      "primaryOnLight": "#2563eb",
+      "accent": "#60a5fa",
+      "accentOnLight": "#1d4ed8"
+    },
+    {
+      "id": "iris",
+      "label": "Iris",
+      "primary": "#5b5bd6",
+      "primaryOnLight": "#4f46e5",
+      "accent": "#9d9dff",
+      "accentOnLight": "#4338ca"
+    },
+    {
+      "id": "violet",
+      "label": "Violet",
+      "primary": "#8b5cf6",
+      "primaryOnLight": "#7c3aed",
+      "accent": "#a78bfa",
+      "accentOnLight": "#6d28d9"
+    },
+    {
+      "id": "purple",
+      "label": "Purple",
+      "primary": "#a855f7",
+      "primaryOnLight": "#9333ea",
+      "accent": "#c084fc",
+      "accentOnLight": "#7e22ce"
+    },
+    {
+      "id": "plum",
+      "label": "Plum",
+      "primary": "#ab4aba",
+      "primaryOnLight": "#9333ea",
+      "accent": "#e879f9",
+      "accentOnLight": "#86198f"
+    },
+    {
+      "id": "fuchsia",
+      "label": "Fuchsia",
+      "primary": "#d946ef",
+      "primaryOnLight": "#c026d3",
+      "accent": "#e879f9",
+      "accentOnLight": "#a21caf"
+    },
+    {
+      "id": "pink",
+      "label": "Pink",
+      "primary": "#ec4899",
+      "primaryOnLight": "#db2777",
+      "accent": "#f472b6",
+      "accentOnLight": "#be185d"
+    },
+    {
+      "id": "ruby",
+      "label": "Ruby",
+      "primary": "#e54666",
+      "primaryOnLight": "#e11d48",
+      "accent": "#ff92a9",
+      "accentOnLight": "#be123c"
+    },
+    {
+      "id": "rose",
+      "label": "Rose",
+      "primary": "#f43f5e",
+      "primaryOnLight": "#e11d48",
+      "accent": "#fb7185",
+      "accentOnLight": "#be123c"
+    },
+    {
+      "id": "crimson",
+      "label": "Crimson",
+      "primary": "#dc2626",
+      "primaryOnLight": "#b91c1c",
+      "accent": "#f87171",
+      "accentOnLight": "#991b1b"
+    },
+    {
+      "id": "red",
+      "label": "Red",
+      "primary": "#ef4444",
+      "primaryOnLight": "#dc2626",
+      "accent": "#fca5a5",
+      "accentOnLight": "#b91c1c"
+    },
+    {
+      "id": "orange",
+      "label": "Orange",
+      "primary": "#f97316",
+      "primaryOnLight": "#ea580c",
+      "accent": "#fb923c",
+      "accentOnLight": "#c2410c"
+    },
+    {
+      "id": "sunset",
+      "label": "Sunset",
+      "primary": "#f97316",
+      "primaryOnLight": "#ea580c",
+      "accent": "#ec4899",
+      "accentOnLight": "#c2410c",
+      "gradient": "linear-gradient(135deg, #f97316 0%, #ec4899 100%)"
+    },
+    {
+      "id": "amber",
+      "label": "Amber",
+      "primary": "#f59e0b",
+      "primaryOnLight": "#d97706",
+      "accent": "#fbbf24",
+      "accentOnLight": "#b45309"
+    },
+    {
+      "id": "gold",
+      "label": "Gold",
+      "primary": "#eab308",
+      "primaryOnLight": "#ca8a04",
+      "accent": "#fde047",
+      "accentOnLight": "#a16207"
+    },
+    {
+      "id": "yellow",
+      "label": "Yellow",
+      "primary": "#facc15",
+      "primaryOnLight": "#eab308",
+      "accent": "#fde047",
+      "accentOnLight": "#ca8a04"
+    },
+    {
+      "id": "lime",
+      "label": "Lime",
+      "primary": "#84cc16",
+      "primaryOnLight": "#65a30d",
+      "accent": "#bef264",
+      "accentOnLight": "#4d7c0f"
+    },
+    {
+      "id": "green",
+      "label": "Green",
+      "primary": "#22c55e",
+      "primaryOnLight": "#16a34a",
+      "accent": "#4ade80",
+      "accentOnLight": "#15803d"
+    },
+    {
+      "id": "emerald",
+      "label": "Emerald",
+      "primary": "#10b981",
+      "primaryOnLight": "#059669",
+      "accent": "#34d399",
+      "accentOnLight": "#0d9488"
+    },
+    {
+      "id": "jade",
+      "label": "Jade",
+      "primary": "#29a383",
+      "primaryOnLight": "#059669",
+      "accent": "#5eead4",
+      "accentOnLight": "#0f766e"
+    },
+    {
+      "id": "teal",
+      "label": "Teal",
+      "primary": "#14b8a6",
+      "primaryOnLight": "#0d9488",
+      "accent": "#2dd4bf",
+      "accentOnLight": "#0f766e"
+    },
+    {
+      "id": "mint",
+      "label": "Mint",
+      "primary": "#2dd4bf",
+      "primaryOnLight": "#14b8a6",
+      "accent": "#5eead4",
+      "accentOnLight": "#0d9488"
+    },
+    {
+      "id": "cyan",
+      "label": "Cyan",
+      "primary": "#06b6d4",
+      "primaryOnLight": "#0891b2",
+      "accent": "#22d3ee",
+      "accentOnLight": "#0e7490"
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean",
+      "primary": "#0ea5e9",
+      "primaryOnLight": "#0284c7",
+      "accent": "#38bdf8",
+      "accentOnLight": "#0369a1"
+    },
+    {
+      "id": "sky",
+      "label": "Sky",
+      "primary": "#38bdf8",
+      "primaryOnLight": "#0ea5e9",
+      "accent": "#7dd3fc",
+      "accentOnLight": "#0284c7"
+    },
+    {
+      "id": "navy",
+      "label": "Navy",
+      "primary": "#1e40af",
+      "primaryOnLight": "#1d4ed8",
+      "accent": "#3b82f6",
+      "accentOnLight": "#1e3a8a"
+    },
+    {
+      "id": "lavender",
+      "label": "Lavender",
+      "primary": "#a78bfa",
+      "primaryOnLight": "#8b5cf6",
+      "accent": "#c4b5fd",
+      "accentOnLight": "#7c3aed"
+    },
+    {
+      "id": "lilac",
+      "label": "Lilac",
+      "primary": "#c084fc",
+      "primaryOnLight": "#a855f7",
+      "accent": "#d8b4fe",
+      "accentOnLight": "#9333ea"
+    },
+    {
+      "id": "grape",
+      "label": "Grape",
+      "primary": "#7c3aed",
+      "primaryOnLight": "#6d28d9",
+      "accent": "#a78bfa",
+      "accentOnLight": "#5b21b6"
+    },
+    {
+      "id": "magenta",
+      "label": "Magenta",
+      "primary": "#db2777",
+      "primaryOnLight": "#be185d",
+      "accent": "#f472b6",
+      "accentOnLight": "#9d174d"
+    },
+    {
+      "id": "coral",
+      "label": "Coral",
+      "primary": "#ff6b6b",
+      "primaryOnLight": "#ef4444",
+      "accent": "#ffa8a8",
+      "accentOnLight": "#dc2626"
+    },
+    {
+      "id": "peach",
+      "label": "Peach",
+      "primary": "#fb923c",
+      "primaryOnLight": "#f97316",
+      "accent": "#fdba74",
+      "accentOnLight": "#ea580c"
+    },
+    {
+      "id": "bronze",
+      "label": "Bronze",
+      "primary": "#a16207",
+      "primaryOnLight": "#92400e",
+      "accent": "#d97706",
+      "accentOnLight": "#78350f"
+    },
+    {
+      "id": "copper",
+      "label": "Copper",
+      "primary": "#b45309",
+      "primaryOnLight": "#92400e",
+      "accent": "#f59e0b",
+      "accentOnLight": "#78350f"
+    },
+    {
+      "id": "brown",
+      "label": "Brown",
+      "primary": "#92400e",
+      "primaryOnLight": "#78350f",
+      "accent": "#d97706",
+      "accentOnLight": "#451a03"
+    },
+    {
+      "id": "sand",
+      "label": "Sand",
+      "primary": "#d6b88c",
+      "primaryOnLight": "#b8956a",
+      "accent": "#fde68a",
+      "accentOnLight": "#92400e"
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "primary": "#166534",
+      "primaryOnLight": "#14532d",
+      "accent": "#22c55e",
+      "accentOnLight": "#052e16"
+    },
+    {
+      "id": "sage",
+      "label": "Sage",
+      "primary": "#84a98c",
+      "primaryOnLight": "#52796f",
+      "accent": "#b5d4bc",
+      "accentOnLight": "#354f52"
+    },
+    {
+      "id": "olive",
+      "label": "Olive",
+      "primary": "#6b705c",
+      "primaryOnLight": "#575a4a",
+      "accent": "#a5a58d",
+      "accentOnLight": "#3f4238"
+    },
+    {
+      "id": "turquoise",
+      "label": "Turquoise",
+      "primary": "#14b8a6",
+      "primaryOnLight": "#0d9488",
+      "accent": "#5eead4",
+      "accentOnLight": "#115e59"
+    },
+    {
+      "id": "aqua",
+      "label": "Aqua",
+      "primary": "#22d3ee",
+      "primaryOnLight": "#06b6d4",
+      "accent": "#67e8f9",
+      "accentOnLight": "#0891b2"
+    },
+    {
+      "id": "slate",
+      "label": "Slate",
+      "primary": "#64748b",
+      "primaryOnLight": "#475569",
+      "accent": "#94a3b8",
+      "accentOnLight": "#334155"
+    },
+    {
+      "id": "zinc",
+      "label": "Zinc",
+      "primary": "#71717a",
+      "primaryOnLight": "#52525b",
+      "accent": "#a1a1aa",
+      "accentOnLight": "#3f3f46"
+    },
+    {
+      "id": "stone",
+      "label": "Stone",
+      "primary": "#78716c",
+      "primaryOnLight": "#57534e",
+      "accent": "#a8a29e",
+      "accentOnLight": "#44403c"
+    },
+    {
+      "id": "gray",
+      "label": "Gray",
+      "primary": "#6b7280",
+      "primaryOnLight": "#4b5563",
+      "accent": "#9ca3af",
+      "accentOnLight": "#374151"
+    },
+    {
+      "id": "charcoal",
+      "label": "Charcoal",
+      "primary": "#4b5563",
+      "primaryOnLight": "#374151",
+      "accent": "#9ca3af",
+      "accentOnLight": "#1f2937"
+    },
+    {
+      "id": "midnight",
+      "label": "Midnight",
+      "primary": "#312e81",
+      "primaryOnLight": "#3730a3",
+      "accent": "#6366f1",
+      "accentOnLight": "#1e1b4b"
+    },
+    {
+      "id": "wine",
+      "label": "Wine",
+      "primary": "#881337",
+      "primaryOnLight": "#9f1239",
+      "accent": "#fb7185",
+      "accentOnLight": "#4c0519"
+    }
+  ]
+}

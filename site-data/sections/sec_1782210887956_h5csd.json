@@ -1,0 +1,104 @@
+{
+  "id": "sec_1782210887956_h5csd",
+  "componentId": "servicesSection",
+  "slotHostId": "servicesSection",
+  "presetId": "services_general_dental_clinic_dental_clinic",
+  "presetSource": "seed",
+  "presetName": "Dental clinic Services",
+  "role": "services",
+  "label": "Our services",
+  "sectionFile": "sections/sec_1782210887956_h5csd.json",
+  "pageNode": {
+    "id": "sec_1782210887956_h5csd",
+    "component": "servicesSection",
+    "category": "content",
+    "variant": "default",
+    "content": {
+      "header": {
+        "eyebrow": "Services",
+        "title": "How Medical helps clients",
+        "subtitle": "Fast refills · Pharmacist advice"
+      },
+      "items": [
+        {
+          "title": "Preventive care",
+          "category": "General",
+          "description": "Cleanings, exams, and hygiene plans for every age.",
+          "icon": "sparkles",
+          "featured": true
+        },
+        {
+          "title": "Cosmetic dentistry",
+          "category": "Smile",
+          "description": "Whitening, veneers, and smile design with digital previews.",
+          "icon": "star",
+          "featured": false
+        },
+        {
+          "title": "Emergency visits",
+          "category": "Urgent",
+          "description": "Same-week relief for pain, chips, and urgent dental needs.",
+          "icon": "clock",
+          "featured": false
+        }
+      ],
+      "settings": {
+        "cardVariant": "featured",
+        "columns": 3,
+        "showCategoryTabs": true,
+        "showBadges": true,
+        "showDescriptions": true,
+        "showIcons": true,
+        "backgroundTheme": "studio_clean",
+        "servicesLayout": "classicGrid"
+      }
+    }
+  },
+  "builderState": {
+    "presentationVariant": "default",
+    "header": {
+      "eyebrow": "Services",
+      "title": "How Medical helps clients",
+      "subtitle": "Fast refills · Pharmacist advice"
+    },
+    "items": [
+      {
+        "id": "pro_svc_dental_clinic_1",
+        "title": "Preventive care",
+        "category": "General",
+        "description": "Cleanings, exams, and hygiene plans for every age.",
+        "icon": "sparkles",
+        "featured": true
+      },
+      {
+        "id": "pro_svc_dental_clinic_2",
+        "title": "Cosmetic dentistry",
+        "category": "Smile",
+        "description": "Whitening, veneers, and smile design with digital previews.",
+        "icon": "star",
+        "featured": false
+      },
+      {
+        "id": "pro_svc_dental_clinic_3",
+        "title": "Emergency visits",
+        "category": "Urgent",
+        "description": "Same-week relief for pain, chips, and urgent dental needs.",
+        "icon": "clock",
+        "featured": false
+      }
+    ],
+    "settings": {
+      "cardVariant": "featured",
+      "columns": 3,
+      "showCategoryTabs": true,
+      "showBadges": true,
+      "showDescriptions": true,
+      "showIcons": true,
+      "backgroundTheme": "studio_clean",
+      "servicesLayout": "classicGrid"
+    },
+    "selection": {
+      "level": "section"
+    }
+  }
+}

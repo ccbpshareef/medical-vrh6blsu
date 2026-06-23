@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Elevation layer tokens applied when building theme CSS variables per color mode",
+  "dark": {
+    "surface": "rgba(255, 255, 255, 0.06)",
+    "surfaceElevated": "rgba(255, 255, 255, 0.14)",
+    "border": "rgba(255, 255, 255, 0.12)",
+    "cardMixPrimaryPercent": 11,
+    "cardBase": "rgba(255, 255, 255, 0.095)",
+    "cardShadow": "0 1px 0 rgba(255,255,255,0.06) inset, 0 4px 16px rgba(0,0,0,0.28), 0 0 0 1px rgba(255,255,255,0.07)",
+    "glossyShadow": "0 1px 0 rgba(255,255,255,0.35) inset, 0 8px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.08)",
+    "danger": "#ef4444"
+  },
+  "light": {
+    "surface": "rgba(0, 0, 0, 0.04)",
+    "surfaceElevated": "rgba(0, 0, 0, 0.07)",
+    "border": "rgba(0, 0, 0, 0.1)",
+    "cardMixPrimaryPercent": 7,
+    "cardBase": "#ffffff",
+    "cardShadow": "0 1px 0 rgba(255,255,255,0.95) inset, 0 2px 12px rgba(0,0,0,0.07), 0 0 0 1px rgba(0,0,0,0.05)",
+    "glossyShadow": "0 1px 0 rgba(255,255,255,0.8) inset, 0 4px 20px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.06)",
+    "danger": "#dc2626"
+  },
+  "shared": {
+    "primaryForeground": "#ffffff",
+    "dangerForeground": "#ffffff"
+  }
+}

@@ -1,0 +1,370 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-color-mode=dark], [data-color-mode=dark] *));
+
+:root {
+  --wb-background: #0b0f1a;
+  --wb-foreground: #f1f5f9;
+  --wb-surface: rgba(255, 255, 255, 0.06);
+  --wb-card: color-mix(in srgb, var(--wb-primary) 11%, rgba(255, 255, 255, 0.095));
+  --wb-surface-elevated: rgba(255, 255, 255, 0.14);
+  --wb-card-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset,
+    0 4px 16px rgba(0, 0, 0, 0.28), 0 0 0 1px rgba(255, 255, 255, 0.07);
+  --wb-primary: #6366f1;
+  --wb-primary-foreground: #ffffff;
+  --wb-secondary: rgba(99, 102, 241, 0.2);
+  --wb-secondary-foreground: #e0e7ff;
+  --wb-accent: #22d3ee;
+  --wb-muted: #94a3b8;
+  --wb-border: rgba(255, 255, 255, 0.12);
+  --wb-danger: #ef4444;
+  --wb-danger-foreground: #ffffff;
+  --wb-gradient-primary: linear-gradient(135deg, #6366f1 0%, #22d3ee 100%);
+  --wb-shadow-glow: 0 0 24px rgba(99, 102, 241, 0.45);
+  --wb-focus-ring: 0 0 0 2px #0b0f1a, 0 0 0 4px #6366f1;
+  --wb-mesh-bg: radial-gradient(
+      ellipse 80% 50% at 20% 40%,
+      rgba(99, 102, 241, 0.35),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 60% 40% at 80% 20%,
+      rgba(34, 211, 238, 0.2),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 50% 50% at 50% 100%,
+      rgba(139, 92, 246, 0.15),
+      transparent
+    );
+  --wb-radius-md: 0.5rem;
+  --wb-shadow-glossy: 0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.08);
+  --wb-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --wb-motion-normal: 250ms;
+}
+
+@theme inline {
+  --color-background: var(--wb-background);
+  --color-foreground: var(--wb-foreground);
+  --color-surface: var(--wb-surface);
+  --color-card: var(--wb-card);
+  --color-primary: var(--wb-primary);
+  --color-primary-foreground: var(--wb-primary-foreground);
+  --color-muted: var(--wb-muted);
+  --color-border: var(--wb-border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-md: var(--wb-radius-md);
+  --shadow-glossy: var(--wb-shadow-glossy);
+}
+
+body {
+  background: var(--wb-background);
+  color: var(--wb-foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  transition: color 0.2s ease;
+}
+
+.mesh-bg {
+  background-color: var(--wb-background);
+  background-image: var(--wb-mesh-bg);
+}
+
+/*
+ * Category style bridge. When a site is generated from a category, the renderer
+ * root carries per-category CSS variables (set inline via importBrandCssVars):
+ * --wb-font-body / --wb-font-heading plus radius/shadow/spacing tokens. These
+ * rules apply the category typography so each industry reads distinctly. Scoped
+ * to .wb-site-root so the builder chrome is never affected (additive).
+ */
+.wb-site-root {
+  font-family: var(--wb-font-body, inherit);
+}
+
+.wb-site-root :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--wb-font-heading, var(--wb-font-body, inherit));
+}
+
+.auth-page {
+  font-family: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  background: #f1f5f9;
+  color: var(--wb-foreground);
+}
+
+[data-color-mode="dark"] .auth-page {
+  background-color: var(--wb-background);
+  background-image: var(--wb-mesh-bg);
+}
+
+.auth-page__brand {
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--wb-primary) 72%, #0f172a 28%) 0%,
+    var(--wb-primary) 48%,
+    color-mix(in srgb, var(--wb-accent) 70%, var(--wb-primary) 30%) 100%
+  );
+}
+
+[data-color-mode="dark"] .auth-page__brand {
+  background: transparent;
+  border-right: 1px solid var(--wb-border);
+}
+
+.auth-page__form-surface {
+  background: transparent;
+}
+
+.auth-page__card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+}
+
+[data-color-mode="dark"] .auth-page__card {
+  background: color-mix(in srgb, var(--wb-card) 96%, var(--wb-background) 4%);
+  border-color: var(--wb-border);
+  box-shadow: var(--wb-card-shadow);
+}
+
+.auth-page__title {
+  color: #0f172a;
+}
+
+[data-color-mode="dark"] .auth-page__title {
+  color: var(--wb-foreground);
+}
+
+.auth-page__label {
+  color: #475569;
+}
+
+[data-color-mode="dark"] .auth-page__label {
+  color: var(--wb-muted);
+}
+
+.auth-page__subtitle {
+  color: #64748b;
+}
+
+[data-color-mode="dark"] .auth-page__subtitle {
+  color: var(--wb-muted);
+}
+
+.auth-page input:-webkit-autofill,
+.auth-page input:-webkit-autofill:hover,
+.auth-page input:-webkit-autofill:focus {
+  -webkit-text-fill-color: #0f172a;
+  -webkit-box-shadow: 0 0 0 1000px #f8fafc inset;
+  transition: background-color 9999s ease-out 0s;
+}
+
+[data-color-mode="dark"] .auth-page input:-webkit-autofill,
+[data-color-mode="dark"] .auth-page input:-webkit-autofill:hover,
+[data-color-mode="dark"] .auth-page input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--wb-foreground);
+  -webkit-box-shadow: 0 0 0 1000px color-mix(in srgb, var(--wb-background) 96%, white 4%) inset;
+}
+
+.builder-main-pane {
+  background: color-mix(in srgb, var(--wb-background) 92%, var(--wb-foreground) 3%);
+}
+
+.site-brief-input {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--wb-muted) 35%, transparent) transparent;
+}
+
+.site-brief-input::-webkit-scrollbar {
+  width: 5px;
+}
+
+.site-brief-input::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--wb-muted) 35%, transparent);
+}
+
+.builder-canvas {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    color-mix(in srgb, var(--wb-foreground) 5%, transparent) 1px,
+    transparent 0
+  );
+  background-size: 24px 24px;
+}
+
+/* Full site page preview — navbar stays in flow; sticky header never covers hero copy */
+.site-page-shell {
+  --site-nav-height: 3.75rem;
+  display: flex;
+  min-height: auto;
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+  flex-direction: column;
+  overflow-x: clip;
+}
+
+.site-page-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  flex: 0 0 auto;
+  align-self: stretch;
+  flex-shrink: 0;
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+  overflow-x: clip;
+}
+
+.site-page-main {
+  display: flex;
+  min-width: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: 0;
+}
+
+.site-page-section {
+  min-width: 0;
+}
+
+/* Composed site preview — continuous page flow without stacked card borders */
+.site-page-main .site-page-section > * {
+  border-radius: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  box-shadow: none;
+}
+
+.site-page-main .site-page-section:not(:last-child) > * {
+  border-bottom-width: 0;
+}
+
+.site-page-main .site-page-section + .site-page-section > * {
+  border-top: 1px solid color-mix(in srgb, var(--wb-border) 55%, transparent);
+}
+
+.site-preview-scroll {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  scroll-padding-top: var(--site-nav-height, 3.75rem);
+  background: var(--wb-background);
+}
+
+.site-preview-scroll > .wb-site-root,
+.site-preview-scroll > .site-page-shell {
+  flex: 1 1 auto;
+  min-height: 100%;
+}
+
+.site-preview-scroll .site-page-main .site-page-section:last-child {
+  margin-top: auto;
+}
+
+/* Site preview — boxed layout (centered frame) */
+.site-page-shell--boxed {
+  background: color-mix(in srgb, var(--wb-muted) 10%, var(--wb-background));
+  padding: 1.25rem 1rem 1.5rem;
+}
+
+.site-page-shell--boxed .site-page-frame {
+  max-width: 72rem;
+  margin-inline: auto;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 2px solid color-mix(in srgb, var(--wb-border) 75%, transparent);
+  background: var(--wb-surface);
+  box-shadow: var(--wb-card-shadow);
+}
+
+.site-preview-scroll .site-page-shell--boxed .site-page-frame {
+  display: flex;
+  min-height: 100%;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.site-page-shell--boxed .site-page-header {
+  position: sticky;
+  top: 0;
+}
+
+.site-page-shell--full-width .site-page-main .site-page-section > * {
+  max-width: none;
+}
+
+.hero-section--family-care {
+  border-radius: 0 !important;
+  border-left-width: 0 !important;
+  border-right-width: 0 !important;
+  border-top-width: 0 !important;
+  box-shadow: none !important;
+}
+
+.site-page-main .site-page-section:first-child > .hero-section--family-care {
+  border-top-width: 0;
+}
+
+.site-preview-scroll .hero-section--family-care-full {
+  min-height: min(68vh, 640px);
+}
+
+.hero-section--family-care-full {
+  min-height: min(88vh, 720px);
+}
+
+.hero-section--family-care-full img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Hero overlay slides — vivid full-bleed photography */
+.slide-frame--overlay .media-alt-badge {
+  display: none;
+}
+
+.slide-frame--overlay .slide-frame__media-layer,
+.slide-frame--overlay .slide-frame__media,
+.slide-frame--overlay .slide-frame__media > div {
+  height: 100%;
+  min-height: 100%;
+}
+
+.slide-frame--overlay .slide-frame__media img {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 !important;
+  filter: brightness(1.06) saturate(1.14) contrast(1.03);
+  transform: scale(1.04);
+  animation: slide-ken-burns 18s ease-in-out infinite alternate;
+}
+
+.slide-frame--overlay:hover .slide-frame__media img {
+  filter: brightness(1.1) saturate(1.18) contrast(1.04);
+}
+
+@keyframes slide-ken-burns {
+  from {
+    transform: scale(1.04) translate(0, 0);
+  }
+  to {
+    transform: scale(1.1) translate(-1%, -1%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide-frame--overlay .slide-frame__media img {
+    animation: none;
+    transform: scale(1.04);
+  }
+}

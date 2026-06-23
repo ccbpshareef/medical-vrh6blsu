@@ -1,0 +1,57 @@
+{
+  "id": "page_1782210888766_vokuj",
+  "route": "/contact",
+  "title": "Contact",
+  "sections": [
+    {
+      "id": "sec_1782210888766_lsijt",
+      "componentId": "navbar",
+      "presetId": "navbar_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Navbar",
+      "role": "header",
+      "label": "Navigation",
+      "sectionFile": "sections/sec_1782210888766_lsijt.json"
+    },
+    {
+      "id": "sec_1782210888766_bdt2i",
+      "componentId": "heroSection",
+      "presetId": "hero_section_general_dental_clinic_light",
+      "presetSource": "seed",
+      "presetName": "Dental clinic · Family Care Hero · Light",
+      "role": "simpleHero",
+      "label": "Contact",
+      "sectionFile": "sections/sec_1782210888766_bdt2i.json"
+    },
+    {
+      "id": "sec_1782210888766_03j9o",
+      "componentId": "contactSection",
+      "presetId": "contact_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Contact",
+      "role": "contact",
+      "label": "Contact us",
+      "sectionFile": "sections/sec_1782210888766_03j9o.json"
+    },
+    {
+      "id": "sec_1782210888766_esfw5",
+      "componentId": "contactSection",
+      "presetId": "contact_general_dental_clinic_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Contact",
+      "role": "contact",
+      "label": "Book now",
+      "sectionFile": "sections/sec_1782210888766_esfw5.json"
+    },
+    {
+      "id": "sec_1782210888766_p7ncv",
+      "componentId": "pageFooter",
+      "presetId": "footer_general_brightsmile_dental_clinic",
+      "presetSource": "seed",
+      "presetName": "Dental clinic Footer",
+      "role": "footer",
+      "label": "Footer",
+      "sectionFile": "sections/sec_1782210888766_p7ncv.json"
+    }
+  ]
+}
